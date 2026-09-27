@@ -89,15 +89,15 @@ import java.util.UUID
     if(importText!=null) AlertDialog(onDismissRequest={importText=null},title={Text("Replace your kitchen?")},text={Text("This replaces your pantry, favourites, meal plan, custom recipes and shopping list. Export a backup first if you want to keep them.")},confirmButton={TextButton(onClick={vm.restore(importText!!);importText=null}){Text("Replace and restore")}},dismissButton={TextButton(onClick={importText=null}){Text("Cancel")}})
     if(reset) AlertDialog(onDismissRequest={reset=false},title={Text("Reset your kitchen?")},text={Text("This deletes your local cooking data. Your Google Play purchase is unaffected.")},confirmButton={TextButton(onClick={vm.update { KitchenState(onboarded=true) };reset=false}){Text("Delete kitchen data")}},dismissButton={TextButton(onClick={reset=false}){Text("Cancel")}})
 }
-@Composable fun CustomRecipeDialog(vm:KitchenViewModel,dismiss:()->Unit) {
-    var title by remember { mutableStateOf("") }
-    var minutes by remember { mutableStateOf("30") }
-    var servings by remember { mutableStateOf("2") }
-    var cuisine by remember { mutableStateOf("Indian") }
-    var diet by remember { mutableStateOf("Vegetarian") }
-    var category by remember { mutableStateOf("Dinner") }
-    var ingredients by remember { mutableStateOf("") }
-    var steps by remember { mutableStateOf("") }
+@Composable fun CustomRecipeDialog(vm:KitchenViewModel,dismiss:()->Unit, original:Recipe? = null) {
+    var title by remember { mutableStateOf(original?.title?:"") }
+    var minutes by remember { mutableStateOf(original?.minutes?.toString()?:"30") }
+    var servings by remember { mutableStateOf(original?.servings?.toString()?:"2") }
+    var cuisine by remember { mutableStateOf(original?.cuisine?:"Indian") }
+    var diet by remember { mutableStateOf(original?.diet?:"Vegetarian") }
+    var category by remember { mutableStateOf(original?.category?:"Dinner") }
+    var ingredients by remember { mutableStateOf(original?.ingredients?.joinToString("\n") { "${it.amount} | ${it.unit} | ${it.name}" }?:"") }
+    var steps by remember { mutableStateOf(original?.steps?.joinToString("\n")?:"") }
     var error by remember { mutableStateOf("") }
     AlertDialog(onDismissRequest=dismiss,title={Text("A recipe of your own")},text={
         Column(Modifier.verticalScroll(rememberScrollState()),verticalArrangement=Arrangement.spacedBy(12.dp)) {
@@ -127,7 +127,7 @@ import java.util.UUID
             }
             val method=steps.lines().map { it.trim() }.filter { it.isNotBlank() }
             require(parsed.isNotEmpty()&&method.isNotEmpty()) { "Add ingredients and at least one cooking step." }
-            Recipe("custom-${UUID.randomUUID()}",title.trim(),cuisine,time,count,diet,category,"From your own kitchen",parsed,method,true)
-        }.onSuccess { r->vm.update { it.copy(customRecipes=it.customRecipes+r) };dismiss() }.onFailure { error=it.message?:"Check your recipe" }
+            Recipe(original?.id?:"custom-${UUID.randomUUID()}",title.trim(),cuisine,time,count,diet,category,"From your own kitchen",parsed,method,true)
+        }.onSuccess { r->vm.update { it.copy(customRecipes=it.customRecipes.filterNot { old->old.id==r.id }+r) };dismiss() }.onFailure { error=it.message?:"Check your recipe" }
     }){Text("Save recipe")}},dismissButton={TextButton(onClick=dismiss){Text("Cancel")}})
 }

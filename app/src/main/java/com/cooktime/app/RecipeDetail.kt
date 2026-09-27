@@ -25,6 +25,8 @@ import java.time.LocalDate
     var timerMinutes by rememberSaveable(recipe.id) { mutableStateOf("5") }
     var deadline by rememberSaveable(recipe.id) { mutableLongStateOf(0L) }
     var remaining by remember { mutableLongStateOf(0L) }
+    var edit by rememberSaveable(recipe.id) { mutableStateOf(false) }
+    var delete by rememberSaveable(recipe.id) { mutableStateOf(false) }
     var finished by rememberSaveable(recipe.id) { mutableStateOf(false) }
     val view=LocalView.current
     DisposableEffect(cooking) { view.keepScreenOn=cooking; onDispose { view.keepScreenOn=false } }
@@ -33,7 +35,7 @@ import java.time.LocalDate
             remaining=((deadline-System.currentTimeMillis()+999)/1000).coerceAtLeast(0)
             if(remaining==0L) {
                 deadline=0; finished=true
-                runCatching { ToneGenerator(AudioManager.STREAM_ALARM,80).also { it.startTone(ToneGenerator.TONE_CDMA_ALERT_CALL_GUARD,1000); delay(1100); it.release() } }
+                runCatching { ToneGenerator(AudioManager.STREAM_ALARM,80).also { try { it.startTone(ToneGenerator.TONE_CDMA_ALERT_CALL_GUARD,1000); delay(1100) } finally { it.release() } } }
                 break
             }
             delay(250)
@@ -87,6 +89,10 @@ import java.time.LocalDate
                 OutlinedButton(onClick={vm.addGroceries(recipe,servings)},modifier=Modifier.weight(1f)) { Text("Shop missing") }
                 OutlinedButton(onClick=plan,modifier=Modifier.weight(1f)) { Text("Plan meal") }
             } }
+            if(recipe.custom) item { Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
+                TextButton(onClick={edit=true}) { Text("Edit your recipe") }
+                TextButton(onClick={delete=true}) { Text("Delete recipe",color=MaterialTheme.colorScheme.error) }
+            } }
             item { Text("Ingredients",style=MaterialTheme.typography.titleLarge) }
             itemsIndexed(recipe.ingredients) { _, ingredient ->
                 val have=KitchenLogic.key(ingredient.name) in KitchenLogic.available(state.pantry)
@@ -105,6 +111,11 @@ import java.time.LocalDate
             item { Text("Ingredient amounts scale with servings; adjust pan size, water and cooking time as needed. Check labels for allergens.",style=MaterialTheme.typography.bodySmall) }
         }
     }
+    if(edit) CustomRecipeDialog(vm,{edit=false},recipe)
+    if(delete) AlertDialog(onDismissRequest={delete=false},title={Text("Delete this recipe?")},text={Text("This also removes the recipe from your favourites and meal plan.")},confirmButton={TextButton(onClick={
+        vm.update { s->s.copy(customRecipes=s.customRecipes.filterNot { it.id==recipe.id },favourites=s.favourites-recipe.id,meals=s.meals.filterNot { it.recipeId==recipe.id }) };back()
+    }){Text("Delete")}},dismissButton={TextButton(onClick={delete=false}){Text("Cancel")}})
+
 }
 @Composable fun PlanRecipeDialog(recipe:Recipe,vm:KitchenViewModel,dismiss:()->Unit) {
     var date by remember { mutableStateOf(LocalDate.now().toString()) }

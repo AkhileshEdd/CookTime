@@ -44,7 +44,7 @@ This is a client-only purchase design, suitable for an offline app but not tampe
 - Recipe ingredients scale; times and water in method text are baseline guidance, not automatically scaled.
 - Vegan / vegetarian labels are broad recipe categories. Exclusion is a text filter, not allergen certification; inspect product labels. Vegetarian excludes eggs in this collection.
 - Timer is an in-app aid. Keep the cooking screen open; it is not a background notification alarm. Screen stays awake during guided cooking. Active countdown uses an absolute deadline across rotation/backgrounding while that screen survives.
-- Date input uses ISO `YYYY-MM-DD`. UI and recipes are English. Offline custom recipes can be created; editing existing custom recipes is not yet implemented.
+- Date input uses ISO `YYYY-MM-DD`. UI and recipes are English. Offline custom recipes can be created, edited and deleted.
 - Food art is original procedural decoration, not a photographic representation of a dish.
 
 ## Verification
