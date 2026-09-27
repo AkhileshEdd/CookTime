@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "poha",
+    "title": "Lemon & pea poha",
+    "cuisine": "Indian",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Breakfast",
+    "description": "Light, fluffy rice flakes with peanuts and a bright squeeze of lemon.",
+    "ingredients": [
+      {
+        "name": "poha",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "peas",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "peanuts",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mustard seeds",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse poha briefly in a sieve. Drain and rest for 5 minutes; the flakes should soften without becoming mushy.",
+      "Warm oil in a wide pan. Add mustard seeds, cover briefly as they pop, then add peanuts and toast for 2 minutes.",
+      "Finely chop the onion. Add it to the pan and cook for 4 minutes. Add peas, turmeric, salt and 2 tablespoons water; cover for 3 minutes.",
+      "Fold in the poha gently. Cover on low heat for 3 minutes. Turn off the heat and squeeze over the lemon."
+    ]
+  },
+  {
+    "id": "chilla",
+    "title": "Besan chilla",
+    "cuisine": "Indian",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Breakfast",
+    "description": "Savoury chickpea pancakes with crisp edges and a soft centre.",
+    "ingredients": [
+      {
+        "name": "chickpea flour",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Mix chickpea flour, cumin, turmeric and salt. Whisk in 160 ml water gradually to make a pourable batter.",
+      "Finely chop onion and tomato, then stir them into the batter. Rest for 5 minutes.",
+      "Heat a non-stick pan over medium heat and brush with a little oil. Pour in a quarter of the batter and spread gently.",
+      "Cook for 2–3 minutes until the base sets. Flip and cook for 2 minutes. Repeat with the remaining batter."
+    ]
+  },
+  {
+    "id": "upma",
+    "title": "Vegetable upma",
+    "cuisine": "Indian",
+    "minutes": 25,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Breakfast",
+    "description": "Toasted semolina, tender vegetables and warming spices.",
+    "ingredients": [
+      {
+        "name": "semolina",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "peas",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "mustard seeds",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 0.5,
+        "unit": "whole"
+      }
+    ],
+    "steps": [
+      "Dry-toast semolina in a pan on medium-low heat for 4 minutes, stirring constantly. Transfer to a bowl.",
+      "Heat oil, add mustard seeds and let them pop. Add chopped onion and cook for 3 minutes.",
+      "Add finely diced carrot, peas and salt. Pour in 350 ml water and bring to a simmer; cook for 5 minutes.",
+      "Lower the heat. Add semolina in a thin stream while stirring to avoid lumps. Cover for 3 minutes, fluff, and finish with lemon."
+    ]
+  },
+  {
+    "id": "dal",
+    "title": "Everyday dal tadka",
+    "cuisine": "Indian",
+    "minutes": 35,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "A comforting bowl of red lentils finished with cumin and garlic.",
+    "ingredients": [
+      {
+        "name": "red lentils",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse lentils. Put in a saucepan with 650 ml water and turmeric. Bring to a boil, skim foam, then simmer partially covered for 20 minutes until soft.",
+      "Meanwhile, heat oil in a small pan. Add cumin, then chopped onion; cook for 6 minutes.",
+      "Add minced garlic and chopped tomato. Cook for 5 minutes until the tomato breaks down.",
+      "Stir the spice mixture into the lentils with salt. Simmer for 3 minutes, adding water if needed for a spoonable consistency."
+    ]
+  },
+  {
+    "id": "chana",
+    "title": "Quick chana masala",
+    "cuisine": "Indian",
+    "minutes": 30,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "Chickpeas in a thick tomato gravy, ready for rice or flatbread.",
+    "ingredients": [
+      {
+        "name": "cooked chickpeas",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "amount": 3,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Heat oil in a saucepan. Add cumin and chopped onion; cook for 6 minutes.",
+      "Stir in minced ginger and garlic for 1 minute. Add chopped tomatoes and salt; cook for 8 minutes, stirring.",
+      "Drain and rinse the cooked chickpeas. Add them with 150 ml water and garam masala.",
+      "Simmer for 10 minutes. Mash a few chickpeas against the side of the pan to thicken the gravy."
+    ]
+  },
+  {
+    "id": "paneer",
+    "title": "Paneer pepper skillet",
+    "cuisine": "Indian",
+    "minutes": 25,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "Golden paneer and colourful peppers in a simple spiced tomato sauce.",
+    "ingredients": [
+      {
+        "name": "paneer",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 2,
+        "unit": "whole"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cut paneer into cubes and pepper and onion into bite-sized pieces. Chop tomatoes separately.",
+      "Heat half the oil in a skillet. Brown paneer for 3 minutes, turning gently, and remove.",
+      "Add remaining oil, cumin, onion and pepper. Stir-fry for 5 minutes. Add tomato, salt and garam masala.",
+      "Cook for 7 minutes until saucy. Return paneer, add 3 tablespoons water and simmer for 3 minutes."
+    ]
+  },
+  {
+    "id": "aloo",
+    "title": "Aloo gobi",
+    "cuisine": "Indian",
+    "minutes": 35,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "A dry potato and cauliflower sabzi with warm, earthy spices.",
+    "ingredients": [
+      {
+        "name": "potato",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cauliflower",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "oil",
+        "amount": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground coriander",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Peel potatoes and cut into 2 cm cubes. Cut cauliflower into small florets and rinse.",
+      "Heat oil in a large pan. Add cumin, then potatoes. Cook, stirring, for 5 minutes.",
+      "Add cauliflower, chopped tomato, turmeric, coriander, salt and 80 ml water. Stir and cover.",
+      "Cook on medium-low for 18–22 minutes, stirring occasionally and adding a splash of water if needed. Both vegetables should be fork-tender. Uncover for 2 minutes to dry the sauce."
+    ]
+  },
+  {
+    "id": "pulao",
+    "title": "One-pot vegetable pulao",
+    "cuisine": "Indian",
+    "minutes": 30,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "Fragrant basmati rice and vegetables, all in one pot.",
+    "ingredients": [
+      {
+        "name": "basmati rice",
+        "amount": 160,
+        "unit": "g"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "peas",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice several times and drain. Slice onion and finely dice carrot.",
+      "Heat oil in a saucepan with a tight lid. Add cumin and onion; cook for 5 minutes.",
+      "Add carrot, peas and rice. Stir for 1 minute, then add 300 ml water and salt. Bring to a boil.",
+      "Cover and cook on the lowest heat for 12 minutes. Turn off the heat and rest, covered, for 8 minutes. Fluff with a fork."
+    ]
+  },
+  {
+    "id": "khichdi",
+    "title": "Gentle moong khichdi",
+    "cuisine": "Indian",
+    "minutes": 35,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "Soft rice and split mung lentils for a quiet, comforting dinner.",
+    "ingredients": [
+      {
+        "name": "rice",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "split mung lentils",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "ghee",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice and split mung lentils well. Finely dice the carrot.",
+      "Heat ghee in a saucepan. Add cumin, then carrot and turmeric; stir for 1 minute.",
+      "Add rice, lentils, salt and 800 ml water. Bring to a boil, then cover loosely and simmer for 25–30 minutes.",
+      "Stir occasionally and add hot water if it gets too thick. Finish when the lentils and rice are very soft."
+    ]
+  },
+  {
+    "id": "bhurji",
+    "title": "Masala egg bhurji",
+    "cuisine": "Indian",
+    "minutes": 15,
+    "servings": 2,
+    "diet": "Non-vegetarian",
+    "category": "Breakfast",
+    "description": "Soft scrambled eggs with onion, tomato and a little spice.",
+    "ingredients": [
+      {
+        "name": "egg",
+        "amount": 4,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.25,
+        "unit": "tsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Finely chop the onion and tomato. Beat eggs in a bowl with the salt.",
+      "Heat oil over medium heat. Cook onion for 4 minutes, then add tomato and spices for 3 minutes.",
+      "Reduce heat to medium-low and add eggs. Stir gently, scraping the bottom, for 3–4 minutes until the eggs are fully set.",
+      "Serve immediately with toast or roti if you have it."
+    ]
+  },
+  {
+    "id": "raita",
+    "title": "Cucumber mint raita",
+    "cuisine": "Indian",
+    "minutes": 10,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Sides",
+    "description": "A cool, crunchy yogurt side for warm, spiced meals.",
+    "ingredients": [
+      {
+        "name": "yogurt",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "mint",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Wash cucumber and mint. Dice cucumber small and finely chop mint.",
+      "Whisk yogurt until smooth. Fold in cucumber, mint, cumin and salt.",
+      "Serve immediately or keep covered in the refrigerator until serving."
+    ]
+  },
+  {
+    "id": "chicken",
+    "title": "Homestyle chicken curry",
+    "cuisine": "Indian",
+    "minutes": 45,
+    "servings": 2,
+    "diet": "Non-vegetarian",
+    "category": "Dinner",
+    "description": "A simple, deeply flavoured chicken curry with a tomato-onion base.",
+    "ingredients": [
+      {
+        "name": "boneless chicken",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 3,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "ginger",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garam masala",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "turmeric",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.75,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Chop onion, tomatoes, ginger and garlic. Cut chicken into 3 cm pieces on a separate board; wash hands and utensils after handling raw chicken.",
+      "Heat oil and cook onion for 7 minutes. Add ginger and garlic for 1 minute, then tomato, spices and salt for 7 minutes.",
+      "Add chicken and stir for 4 minutes. Add 180 ml water, cover and simmer gently for 15–20 minutes.",
+      "Check the largest chicken piece reaches 74°C at its centre with a food thermometer. Simmer uncovered to thicken the sauce if needed."
+    ]
+  },
+  {
+    "id": "pasta",
+    "title": "Tomato basil pasta",
+    "cuisine": "International",
+    "minutes": 25,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A bright, garlicky tomato sauce that clings to every forkful.",
+    "ingredients": [
+      {
+        "name": "pasta",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "canned tomato",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "basil",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Bring a large pot of water to a boil. Cook pasta according to the pack instructions until just tender. Reserve 100 ml cooking water before draining.",
+      "Meanwhile, slice garlic. Heat olive oil in a skillet and gently cook garlic for 1 minute without browning.",
+      "Add canned tomato and salt. Simmer for 12 minutes, breaking up larger pieces with a spoon.",
+      "Toss drained pasta with the sauce, torn basil and a little reserved water until glossy."
+    ]
+  },
+  {
+    "id": "oats",
+    "title": "Banana overnight oats",
+    "cuisine": "International",
+    "minutes": 10,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Breakfast",
+    "description": "A make-ahead breakfast with banana, oats and creamy yogurt. Chill overnight.",
+    "ingredients": [
+      {
+        "name": "rolled oats",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "milk",
+        "amount": 160,
+        "unit": "ml"
+      },
+      {
+        "name": "yogurt",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "banana",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "chia seeds",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Mix oats, milk, yogurt and chia seeds in a covered container.",
+      "Refrigerate for at least 6 hours or overnight; the listed time is active preparation time.",
+      "Stir, divide into two bowls and top with sliced banana just before eating. Keep chilled and enjoy within 2 days."
+    ]
+  },
+  {
+    "id": "friedrice",
+    "title": "Vegetable fried rice",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "A quick wok-style dinner using safely chilled cooked rice.",
+    "ingredients": [
+      {
+        "name": "cooked rice",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "peas",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "spring onion",
+        "amount": 2,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "oil",
+        "amount": 1,
+        "unit": "tbsp"
+      }
+    ],
+    "steps": [
+      "Use cooked rice that was cooled promptly and refrigerated. Dice carrot finely; slice spring onions and garlic.",
+      "Heat oil in a large skillet. Add carrot and cook for 4 minutes. Add peas and garlic for 2 minutes.",
+      "Add rice and soy sauce. Stir-fry for 5–6 minutes, breaking up clumps, until steaming hot throughout.",
+      "Fold in spring onions and serve immediately. Reheat rice only once."
+    ]
+  },
+  {
+    "id": "shakshuka",
+    "title": "Smoky shakshuka",
+    "cuisine": "International",
+    "minutes": 30,
+    "servings": 2,
+    "diet": "Non-vegetarian",
+    "category": "Breakfast",
+    "description": "Eggs gently cooked in a rich tomato and pepper sauce.",
+    "ingredients": [
+      {
+        "name": "egg",
+        "amount": 4,
+        "unit": "whole"
+      },
+      {
+        "name": "canned tomato",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "bell pepper",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "paprika",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice onion and pepper. Heat oil in a wide skillet with a lid and cook both for 7 minutes.",
+      "Add paprika, cumin, tomatoes and salt. Simmer for 10 minutes until thick.",
+      "Make four hollows in the sauce and crack an egg into each. Cover and simmer gently for 6–9 minutes.",
+      "Cook until both whites and yolks are set. Serve hot, spooning sauce around the eggs."
+    ]
+  },
+  {
+    "id": "salad",
+    "title": "Chickpea crunch salad",
+    "cuisine": "International",
+    "minutes": 15,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "Fresh cucumber, juicy tomato and chickpeas with lemon dressing.",
+    "ingredients": [
+      {
+        "name": "cooked chickpeas",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 2,
+        "unit": "whole"
+      },
+      {
+        "name": "onion",
+        "amount": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Drain and rinse cooked chickpeas. Wash and dice cucumber and tomatoes. Finely chop onion.",
+      "Whisk lemon juice, olive oil and salt in a bowl.",
+      "Add chickpeas and vegetables and toss well. Let stand for 5 minutes for the flavours to mingle. Keep chilled until serving."
+    ]
+  },
+  {
+    "id": "quesadilla",
+    "title": "Bean & cheese quesadillas",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Lunch",
+    "description": "Golden folded tortillas packed with beans and melted cheese.",
+    "ingredients": [
+      {
+        "name": "tortilla",
+        "amount": 4,
+        "unit": "whole"
+      },
+      {
+        "name": "cooked kidney beans",
+        "amount": 240,
+        "unit": "g"
+      },
+      {
+        "name": "cheddar",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "ground cumin",
+        "amount": 0.5,
+        "unit": "tsp"
+      },
+      {
+        "name": "oil",
+        "amount": 2,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Drain and rinse cooked kidney beans. Mash lightly with cumin and finely chopped tomato. Grate the cheese.",
+      "Spread bean mixture over half of each tortilla. Add cheese and fold the empty half over.",
+      "Heat a little oil in a skillet over medium-low heat. Cook each folded tortilla for 2–3 minutes per side until golden and hot inside.",
+      "Cut into wedges and serve."
+    ]
+  },
+  {
+    "id": "soup",
+    "title": "Roasted-style tomato soup",
+    "cuisine": "International",
+    "minutes": 30,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A velvety tomato soup made entirely on the stovetop.",
+    "ingredients": [
+      {
+        "name": "canned tomato",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "onion",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "carrot",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "vegetable stock",
+        "amount": 250,
+        "unit": "ml"
+      },
+      {
+        "name": "salt",
+        "amount": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Dice onion and carrot and mince garlic. Heat oil in a saucepan and cook onion and carrot for 7 minutes.",
+      "Add garlic for 1 minute, followed by tomatoes and stock. Simmer for 18 minutes until carrot is soft.",
+      "Take off the heat. Blend carefully with an immersion blender, keeping the head submerged to avoid splashes.",
+      "Return to low heat briefly. Taste before adding salt, since stock varies in saltiness."
+    ]
+  },
+  {
+    "id": "noodles",
+    "title": "Peanut sesame noodles",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "Silky noodles in a savoury peanut sauce with crunchy cucumber.",
+    "ingredients": [
+      {
+        "name": "noodles",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "peanut butter",
+        "amount": 2,
+        "unit": "tbsp"
+      },
+      {
+        "name": "soy sauce",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "lemon",
+        "amount": 0.5,
+        "unit": "whole"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "sesame seeds",
+        "amount": 1,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Cook noodles according to package directions, reserving 100 ml cooking water before draining.",
+      "Whisk peanut butter, soy sauce and lemon juice with 3 tablespoons warm cooking water until smooth.",
+      "Cut cucumber into thin strips. Toss noodles with sauce, adding more water a spoonful at a time if needed.",
+      "Top with cucumber and sesame seeds. Choose egg-free noodles for a vegan dish."
+    ]
+  },
+  {
+    "id": "mushroom",
+    "title": "Garlic mushroom toast",
+    "cuisine": "International",
+    "minutes": 15,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Breakfast",
+    "description": "Golden mushrooms on thick toast with a little creamy yogurt.",
+    "ingredients": [
+      {
+        "name": "mushroom",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "bread",
+        "amount": 4,
+        "unit": "slices"
+      },
+      {
+        "name": "garlic",
+        "amount": 2,
+        "unit": "cloves"
+      },
+      {
+        "name": "butter",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "yogurt",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "salt",
+        "amount": 0.25,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Wipe mushrooms clean and slice. Mince garlic.",
+      "Heat butter in a skillet and cook mushrooms over medium-high heat for 6–8 minutes until their liquid evaporates and edges brown.",
+      "Add garlic and salt for the final minute. Toast the bread.",
+      "Spread yogurt over the toast, then top with mushrooms and serve straight away."
+    ]
+  },
+  {
+    "id": "couscous",
+    "title": "Lemon vegetable couscous",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "Fluffy couscous with chickpeas and a crisp, fresh vegetable mix.",
+    "ingredients": [
+      {
+        "name": "couscous",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "name": "cooked chickpeas",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "tomato",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Put couscous in a heatproof bowl. Add 180 ml boiling water and half the salt; cover for 5 minutes or follow your package ratio.",
+      "Fluff with a fork. Drain chickpeas and dice cucumber and tomato.",
+      "Whisk lemon juice with olive oil and remaining salt. Toss through couscous with vegetables and chickpeas."
+    ]
+  },
+  {
+    "id": "potato",
+    "title": "Herby potato & bean tray",
+    "cuisine": "International",
+    "minutes": 45,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "Crisp-edged potatoes and green beans from one oven tray.",
+    "ingredients": [
+      {
+        "name": "potato",
+        "amount": 450,
+        "unit": "g"
+      },
+      {
+        "name": "green beans",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1.5,
+        "unit": "tbsp"
+      },
+      {
+        "name": "garlic",
+        "amount": 3,
+        "unit": "cloves"
+      },
+      {
+        "name": "dried oregano",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Heat oven to 220°C conventional or 200°C fan. Cut potatoes into 2 cm chunks and pat dry.",
+      "Toss potatoes with oil, oregano and salt on a baking tray. Spread in one layer and roast for 25 minutes.",
+      "Trim beans and slice garlic. Add to the tray, turn potatoes and roast for another 12–15 minutes.",
+      "Check potatoes are tender inside and beans cooked through. Serve hot."
+    ]
+  },
+  {
+    "id": "chickenbowl",
+    "title": "Lemon chicken rice bowl",
+    "cuisine": "International",
+    "minutes": 30,
+    "servings": 2,
+    "diet": "Non-vegetarian",
+    "category": "Dinner",
+    "description": "Pan-seared chicken, fluffy rice and fresh cucumber in one bowl.",
+    "ingredients": [
+      {
+        "name": "boneless chicken",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "rice",
+        "amount": 140,
+        "unit": "g"
+      },
+      {
+        "name": "cucumber",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "lemon",
+        "amount": 1,
+        "unit": "whole"
+      },
+      {
+        "name": "olive oil",
+        "amount": 1,
+        "unit": "tbsp"
+      },
+      {
+        "name": "dried oregano",
+        "amount": 1,
+        "unit": "tsp"
+      },
+      {
+        "name": "salt",
+        "amount": 0.5,
+        "unit": "tsp"
+      }
+    ],
+    "steps": [
+      "Rinse rice and cook according to its package instructions. Wash cucumber and slice on a clean board.",
+      "Cut chicken into 2 cm pieces on a separate board. Toss with half the lemon juice, oil, oregano and salt. Clean hands and tools after touching raw chicken.",
+      "Heat a skillet over medium-high heat. Cook chicken for 8–12 minutes, turning, until the centre of the largest piece reaches 74°C on a food thermometer.",
+      "Divide rice, chicken and cucumber between bowls. Finish with the remaining lemon juice."
+    ]
+  }
+]
