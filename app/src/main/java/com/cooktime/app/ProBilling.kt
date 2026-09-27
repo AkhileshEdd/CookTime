@@ -23,6 +23,7 @@ class ProBilling(context: Context) : PurchasesUpdatedListener {
         .enableAutoServiceReconnection().build()
     private fun verified(p: Purchase): Boolean = runCatching {
         if (BuildConfig.PLAY_LICENSE_KEY.isBlank()) return false
+        if (org.json.JSONObject(p.originalJson).optString("packageName") != BuildConfig.APPLICATION_ID) return false
         val key = KeyFactory.getInstance("RSA").generatePublic(X509EncodedKeySpec(Base64.decode(BuildConfig.PLAY_LICENSE_KEY, Base64.DEFAULT)))
         Signature.getInstance("SHA1withRSA").run { initVerify(key); update(p.originalJson.toByteArray(Charsets.UTF_8)); verify(Base64.decode(p.signature, Base64.DEFAULT)) }
     }.getOrDefault(false)
@@ -72,7 +73,9 @@ class ProBilling(context: Context) : PurchasesUpdatedListener {
             if(result.responseCode != BillingClient.BillingResponseCode.OK || fresh == null || offer == null) {
                 message.value = "This upgrade is not available from Google Play yet."; return@queryProductDetailsAsync
             }
-            val params = BillingFlowParams.ProductDetailsParams.newBuilder().setProductDetails(fresh).setOfferToken(offer.offerToken).build()
+            val productParams = BillingFlowParams.ProductDetailsParams.newBuilder().setProductDetails(fresh)
+            offer.offerToken?.let { productParams.setOfferToken(it) }
+            val params = productParams.build()
             val launched = client.launchBillingFlow(activity, BillingFlowParams.newBuilder().setProductDetailsParamsList(listOf(params)).build())
             if(launched.responseCode != BillingClient.BillingResponseCode.OK) message.value = "Could not open the purchase screen. Please try again."
         }

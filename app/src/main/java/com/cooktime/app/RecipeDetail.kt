@@ -34,8 +34,9 @@ import java.time.LocalDate
         while(deadline>0) {
             remaining=((deadline-System.currentTimeMillis()+999)/1000).coerceAtLeast(0)
             if(remaining==0L) {
-                deadline=0; finished=true
+                finished=true
                 runCatching { ToneGenerator(AudioManager.STREAM_ALARM,80).also { try { it.startTone(ToneGenerator.TONE_CDMA_ALERT_CALL_GUARD,1000); delay(1100) } finally { it.release() } } }
+                deadline=0
                 break
             }
             delay(250)

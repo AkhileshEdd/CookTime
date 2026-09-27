@@ -195,7 +195,7 @@ import java.time.temporal.ChronoUnit
     }
     choosing?.let { (date,slot) ->
         AlertDialog(onDismissRequest={choosing=null},title={Text("$slot · $date")},text={
-            LazyColumn(verticalArrangement=Arrangement.spacedBy(8.dp)) {
+            LazyColumn(modifier=Modifier.heightIn(max=360.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
                 items(recipes.filter { KitchenLogic.allowed(it,state.diet,state.excluded) }) { r ->
                     TextButton(onClick={vm.update { s->s.copy(meals=s.meals.filterNot { it.date==date && it.slot==slot }+Meal(date,slot,r.id,r.servings)) };choosing=null}) { Text(r.title) }
                 }
