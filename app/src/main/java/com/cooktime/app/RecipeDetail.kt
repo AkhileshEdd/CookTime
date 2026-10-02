@@ -50,6 +50,9 @@ import java.time.LocalDate
         if(!cooking) item { FoodArt(recipe.id,Modifier.fillMaxWidth().height(210.dp)) }
         item { Text("${recipe.cuisine.uppercase()} · ${recipe.minutes} MIN · ${recipe.diet.uppercase()}",style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.primary) }
         item { Heading(recipe.title,recipe.description) }
+        if((recipe.moods+recipe.occasions+recipe.specialDays).isNotEmpty()) item {
+            Text((recipe.moods+recipe.occasions+recipe.specialDays).joinToString(" · "),style=MaterialTheme.typography.labelMedium,color=MaterialTheme.colorScheme.secondary)
+        }
         if(cooking) {
             item { Text("STEP ${step+1} OF ${recipe.steps.size}",color=MaterialTheme.colorScheme.secondary,style=MaterialTheme.typography.labelLarge) }
             item { LinearProgressIndicator(progress={(step+1).toFloat()/recipe.steps.size},modifier=Modifier.fillMaxWidth()) }

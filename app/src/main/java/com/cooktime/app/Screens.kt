@@ -24,12 +24,16 @@ import java.time.temporal.ChronoUnit
     var time by rememberSaveable { mutableStateOf("Any time") }
     var shuffled by rememberSaveable { mutableIntStateOf(0) }
     val max=when(time){"15 min"->15;"30 min"->30;else->600}
-    val ranked=KitchenLogic.rank(recipes,state,max)
-    val pick=ranked.getOrNull(if(ranked.isEmpty()) 0 else shuffled%minOf(ranked.size,5))
+    var mood by rememberSaveable { mutableStateOf("") }
+    var occasion by rememberSaveable { mutableStateOf("") }
+    var specialDay by rememberSaveable { mutableStateOf("") }
+    val ranked=KitchenLogic.rank(recipes.filter { RecipeDiscovery.matches(it,mood,occasion,specialDay) },state,max)
+    val pick=ranked.getOrNull(if(ranked.isEmpty()) 0 else shuffled%ranked.size)
     LazyColumn(contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
         item { Text("A GOOD MEAL STARTS HERE",style=MaterialTheme.typography.labelLarge,color=MaterialTheme.colorScheme.secondary) }
         item { Heading("What should\nyou cook?","A little less deciding. A lot more enjoying.") }
         item { ChoiceRow(listOf("Any time","15 min","30 min"),time,{time=it;shuffled=0}) }
+        item { CollectionFilters(mood,occasion,specialDay,{mood=it;shuffled=0},{occasion=it;shuffled=0},{specialDay=it;shuffled=0}) }
         item {
             if(pick!=null) Card(colors=CardDefaults.cardColors(containerColor=MaterialTheme.colorScheme.surfaceVariant)) {
                 Column(Modifier.padding(18.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
@@ -43,10 +47,10 @@ import java.time.temporal.ChronoUnit
                         OutlinedButton(onClick={shuffled++},enabled=ranked.size>1) { Icon(Icons.Outlined.Shuffle,"Another idea") }
                     }
                 }
-            } else EmptyState("No matching recipes","Try a longer cooking time or adjust your dietary and ingredient filters in Settings.")
+            } else EmptyState("No matching recipes","Try a longer cooking time, clear moment filters, or adjust dietary preferences in Settings.")
         }
         if(state.pantry.isEmpty()) item { OutlinedButton(onClick=pantry,modifier=Modifier.fillMaxWidth()) { Text("Add ingredients for better suggestions") } }
-        item { Heading("Worth making tonight", "Simple recipes, stored right here.") }
+        item { Heading("More for your moment", "Simple recipes, stored right here.") }
         items(ranked.take(6),key={it.id}) { RecipeCard(it,state,{open(it.id)}) }
         item { Text("Pantry matches check ingredient names, not quantities. Check your supplies before starting.",style=MaterialTheme.typography.bodySmall) }
     }
@@ -56,17 +60,21 @@ import java.time.temporal.ChronoUnit
     var cuisine by rememberSaveable { mutableStateOf("All cuisines") }
     var collection by rememberSaveable { mutableStateOf("All recipes") }
     var category by rememberSaveable { mutableStateOf("Any meal") }
+    var mood by rememberSaveable { mutableStateOf("") }
+    var occasion by rememberSaveable { mutableStateOf("") }
+    var specialDay by rememberSaveable { mutableStateOf("") }
     val filtered=recipes.filter { KitchenLogic.allowed(it,state.diet,state.excluded) &&
         (cuisine=="All cuisines" || it.cuisine==cuisine) &&
         (category=="Any meal" || it.category==category) &&
         (collection!="Favourites" || it.id in state.favourites) && (collection!="My recipes" || it.custom) &&
-        (it.title.contains(query,true) || it.ingredients.any { i->i.name.contains(query,true) }) }
+        RecipeDiscovery.matches(it,mood,occasion,specialDay,query) }
     LazyColumn(contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(14.dp)) {
         item { Heading("Your recipe book","Indian comfort. International favourites.") }
-        item { OutlinedTextField(query,{query=it},label={Text("Search dishes or ingredients")},leadingIcon={Icon(Icons.Outlined.Search,null)},modifier=Modifier.fillMaxWidth(),singleLine=true) }
+        item { OutlinedTextField(query,{query=it},label={Text("Search dishes, ingredients or moments")},leadingIcon={Icon(Icons.Outlined.Search,null)},modifier=Modifier.fillMaxWidth(),singleLine=true) }
         item { ChoiceRow(listOf("All recipes","Favourites","My recipes"),collection,{collection=it}) }
         item { ChoiceRow(listOf("All cuisines","Indian","International"),cuisine,{cuisine=it}) }
-        item { ChoiceRow(listOf("Any meal","Breakfast","Lunch","Dinner","Sides"),category,{category=it}) }
+        item { ChoiceRow(listOf("Any meal")+RecipeDiscovery.categories,category,{category=it}) }
+        item { CollectionFilters(mood,occasion,specialDay,{mood=it},{occasion=it},{specialDay=it}) }
         item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) {
             Text("${filtered.size} recipes",style=MaterialTheme.typography.labelLarge)
             TextButton(onClick=add) { Icon(Icons.Outlined.Add,null); Text("Your recipe") }

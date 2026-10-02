@@ -33,3 +33,12 @@
 - Review the final privacy policy and Play data safety form.
 - Check package ID ownership, app name availability, artwork, listing copy and screenshots.
 - Confirm current Play target SDK and Billing deadlines before submission.
+
+
+## 1.1.0 recipe discovery
+- Confirm 60 recipes without dietary filters (30 Indian / 30 international).
+- Explore each mood, occasion and special-day collection; combine filters, clear them, and check empty-state guidance.
+- Search for “Diwali”, “movie night”, or “sweet chocolate”; search is case-insensitive and supports multiple words.
+- Browse Snacks, Desserts and Drinks, then use serving scaling and shopping lists as before.
+- Import a version-1 backup with untagged custom recipes; confirm favourites and meal plans still resolve original recipe IDs.
+- Add moment tags to a custom recipe, edit it, export and restore.

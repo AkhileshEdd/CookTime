@@ -60,7 +60,16 @@
       "Warm oil in a wide pan. Add mustard seeds, cover briefly as they pop, then add peanuts and toast for 2 minutes.",
       "Finely chop the onion. Add it to the pan and cook for 4 minutes. Add peas, turmeric, salt and 2 tablespoons water; cover for 3 minutes.",
       "Fold in the poha gently. Cover on low heat for 3 minutes. Turn off the heat and squeeze over the lemon."
-    ]
+    ],
+    "moods": [
+      "Quick & easy",
+      "Fresh & light"
+    ],
+    "occasions": [
+      "Solo night",
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "chilla",
@@ -113,7 +122,14 @@
       "Finely chop onion and tomato, then stir them into the batter. Rest for 5 minutes.",
       "Heat a non-stick pan over medium heat and brush with a little oil. Pour in a quarter of the batter and spread gently.",
       "Cook for 2–3 minutes until the base sets. Flip and cook for 2 minutes. Repeat with the remaining batter."
-    ]
+    ],
+    "moods": [
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "upma",
@@ -171,7 +187,15 @@
       "Heat oil, add mustard seeds and let them pop. Add chopped onion and cook for 3 minutes.",
       "Add finely diced carrot, peas and salt. Pour in 350 ml water and bring to a simmer; cook for 5 minutes.",
       "Lower the heat. Add semolina in a thin stream while stirring to avoid lumps. Cover for 3 minutes, fluff, and finish with lemon."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table",
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "dal",
@@ -229,7 +253,15 @@
       "Meanwhile, heat oil in a small pan. Add cumin, then chopped onion; cook for 6 minutes.",
       "Add minced garlic and chopped tomato. Cook for 5 minutes until the tomato breaks down.",
       "Stir the spice mixture into the lentils with salt. Simmer for 3 minutes, adding water if needed for a spoonable consistency."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "chana",
@@ -292,7 +324,14 @@
       "Stir in minced ginger and garlic for 1 minute. Add chopped tomatoes and salt; cook for 8 minutes, stirring.",
       "Drain and rinse the cooked chickpeas. Add them with 150 ml water and garam masala.",
       "Simmer for 10 minutes. Mash a few chickpeas against the side of the pan to thicken the gravy."
-    ]
+    ],
+    "moods": [
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "paneer",
@@ -350,6 +389,16 @@
       "Heat half the oil in a skillet. Brown paneer for 3 minutes, turning gently, and remove.",
       "Add remaining oil, cumin, onion and pepper. Stir-fry for 5 minutes. Add tomato, salt and garam masala.",
       "Cook for 7 minutes until saucy. Return paneer, add 3 tablespoons water and simmer for 3 minutes."
+    ],
+    "moods": [
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Date night",
+      "Family table"
+    ],
+    "specialDays": [
+      "Birthdays"
     ]
   },
   {
@@ -408,7 +457,14 @@
       "Heat oil in a large pan. Add cumin, then potatoes. Cook, stirring, for 5 minutes.",
       "Add cauliflower, chopped tomato, turmeric, coriander, salt and 80 ml water. Stir and cover.",
       "Cook on medium-low for 18–22 minutes, stirring occasionally and adding a splash of water if needed. Both vegetables should be fork-tender. Uncover for 2 minutes to dry the sauce."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "pulao",
@@ -461,6 +517,15 @@
       "Heat oil in a saucepan with a tight lid. Add cumin and onion; cook for 5 minutes.",
       "Add carrot, peas and rice. Stir for 1 minute, then add 300 ml water and salt. Bring to a boil.",
       "Cover and cook on the lowest heat for 12 minutes. Turn off the heat and rest, covered, for 8 minutes. Fluff with a fork."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Diwali"
     ]
   },
   {
@@ -514,7 +579,15 @@
       "Heat ghee in a saucepan. Add cumin, then carrot and turmeric; stir for 1 minute.",
       "Add rice, lentils, salt and 800 ml water. Bring to a boil, then cover loosely and simmer for 25–30 minutes.",
       "Stir occasionally and add hot water if it gets too thick. Finish when the lentils and rice are very soft."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Solo night"
+    ],
+    "specialDays": []
   },
   {
     "id": "bhurji",
@@ -567,7 +640,15 @@
       "Heat oil over medium heat. Cook onion for 4 minutes, then add tomato and spices for 3 minutes.",
       "Reduce heat to medium-low and add eggs. Stir gently, scraping the bottom, for 3–4 minutes until the eggs are fully set.",
       "Serve immediately with toast or roti if you have it."
-    ]
+    ],
+    "moods": [
+      "Quick & easy",
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "raita",
@@ -609,7 +690,15 @@
       "Wash cucumber and mint. Dice cucumber small and finely chop mint.",
       "Whisk yogurt until smooth. Fold in cucumber, mint, cumin and salt.",
       "Serve immediately or keep covered in the refrigerator until serving."
-    ]
+    ],
+    "moods": [
+      "Fresh & light",
+      "Summer cooler"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "chicken",
@@ -672,7 +761,15 @@
       "Heat oil and cook onion for 7 minutes. Add ginger and garlic for 1 minute, then tomato, spices and salt for 7 minutes.",
       "Add chicken and stir for 4 minutes. Add 180 ml water, cover and simmer gently for 15–20 minutes.",
       "Check the largest chicken piece reaches 74°C at its centre with a food thermometer. Simmer uncovered to thicken the sauce if needed."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "pasta",
@@ -720,6 +817,16 @@
       "Meanwhile, slice garlic. Heat olive oil in a skillet and gently cook garlic for 1 minute without browning.",
       "Add canned tomato and salt. Simmer for 12 minutes, breaking up larger pieces with a spoon.",
       "Toss drained pasta with the sauce, torn basil and a little reserved water until glossy."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Date night",
+      "Solo night"
+    ],
+    "specialDays": [
+      "Valentine's Day"
     ]
   },
   {
@@ -762,7 +869,14 @@
       "Mix oats, milk, yogurt and chia seeds in a covered container.",
       "Refrigerate for at least 6 hours or overnight; the listed time is active preparation time.",
       "Stir, divide into two bowls and top with sliced banana just before eating. Keep chilled and enjoy within 2 days."
-    ]
+    ],
+    "moods": [
+      "Fresh & light"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "friedrice",
@@ -815,7 +929,14 @@
       "Heat oil in a large skillet. Add carrot and cook for 4 minutes. Add peas and garlic for 2 minutes.",
       "Add rice and soy sauce. Stir-fry for 5–6 minutes, breaking up clumps, until steaming hot throughout.",
       "Fold in spring onions and serve immediately. Reheat rice only once."
-    ]
+    ],
+    "moods": [
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Solo night"
+    ],
+    "specialDays": []
   },
   {
     "id": "shakshuka",
@@ -873,7 +994,14 @@
       "Add paprika, cumin, tomatoes and salt. Simmer for 10 minutes until thick.",
       "Make four hollows in the sauce and crack an egg into each. Cover and simmer gently for 6–9 minutes.",
       "Cook until both whites and yolks are set. Serve hot, spooning sauce around the eggs."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "salad",
@@ -925,7 +1053,15 @@
       "Drain and rinse cooked chickpeas. Wash and dice cucumber and tomatoes. Finely chop onion.",
       "Whisk lemon juice, olive oil and salt in a bowl.",
       "Add chickpeas and vegetables and toss well. Let stand for 5 minutes for the flavours to mingle. Keep chilled until serving."
-    ]
+    ],
+    "moods": [
+      "Fresh & light",
+      "Summer cooler"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "quesadilla",
@@ -973,7 +1109,15 @@
       "Spread bean mixture over half of each tortilla. Add cheese and fold the empty half over.",
       "Heat a little oil in a skillet over medium-low heat. Cook each folded tortilla for 2–3 minutes per side until golden and hot inside.",
       "Cut into wedges and serve."
-    ]
+    ],
+    "moods": [
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Movie night",
+      "Party bites"
+    ],
+    "specialDays": []
   },
   {
     "id": "soup",
@@ -1026,7 +1170,15 @@
       "Add garlic for 1 minute, followed by tomatoes and stock. Simmer for 18 minutes until carrot is soft.",
       "Take off the heat. Blend carefully with an immersion blender, keeping the head submerged to avoid splashes.",
       "Return to low heat briefly. Taste before adding salt, since stock varies in saltiness."
-    ]
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Solo night"
+    ],
+    "specialDays": []
   },
   {
     "id": "noodles",
@@ -1074,7 +1226,15 @@
       "Whisk peanut butter, soy sauce and lemon juice with 3 tablespoons warm cooking water until smooth.",
       "Cut cucumber into thin strips. Toss noodles with sauce, adding more water a spoonful at a time if needed.",
       "Top with cucumber and sesame seeds. Choose egg-free noodles for a vegan dish."
-    ]
+    ],
+    "moods": [
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Solo night",
+      "Movie night"
+    ],
+    "specialDays": []
   },
   {
     "id": "mushroom",
@@ -1122,7 +1282,15 @@
       "Heat butter in a skillet and cook mushrooms over medium-high heat for 6–8 minutes until their liquid evaporates and edges brown.",
       "Add garlic and salt for the final minute. Toast the bread.",
       "Spread yogurt over the toast, then top with mushrooms and serve straight away."
-    ]
+    ],
+    "moods": [
+      "Quick & easy",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": []
   },
   {
     "id": "couscous",
@@ -1174,7 +1342,14 @@
       "Put couscous in a heatproof bowl. Add 180 ml boiling water and half the salt; cover for 5 minutes or follow your package ratio.",
       "Fluff with a fork. Drain chickpeas and dice cucumber and tomato.",
       "Whisk lemon juice with olive oil and remaining salt. Toss through couscous with vegetables and chickpeas."
-    ]
+    ],
+    "moods": [
+      "Fresh & light"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
   },
   {
     "id": "potato",
@@ -1222,6 +1397,15 @@
       "Toss potatoes with oil, oregano and salt on a baking tray. Spread in one layer and roast for 25 minutes.",
       "Trim beans and slice garlic. Add to the tray, turn potatoes and roast for another 12–15 minutes.",
       "Check potatoes are tender inside and beans cooked through. Serve hot."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Christmas"
     ]
   },
   {
@@ -1275,6 +1459,2270 @@
       "Cut chicken into 2 cm pieces on a separate board. Toss with half the lemon juice, oil, oregano and salt. Clean hands and tools after touching raw chicken.",
       "Heat a skillet over medium-high heat. Cook chicken for 8–12 minutes, turning, until the centre of the largest piece reaches 74°C on a food thermometer.",
       "Divide rice, chicken and cucumber between bowls. Finish with the remaining lemon juice."
+    ],
+    "moods": [
+      "Fresh & light"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "rajma",
+    "title": "Weeknight rajma",
+    "cuisine": "Indian",
+    "minutes": 35,
+    "servings": 3,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "Comforting kidney beans in a thick, gently spiced tomato gravy. Uses fully cooked beans.",
+    "ingredients": [
+      {
+        "amount": 450.0,
+        "unit": "g",
+        "name": "cooked kidney beans"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 3.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 3.0,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "amount": 10.0,
+        "unit": "g",
+        "name": "ginger"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "cumin"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "garam masala"
+      },
+      {
+        "amount": 0.75,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Drain and rinse canned or fully cooked kidney beans. Finely chop onion, tomatoes, garlic and ginger. Do not substitute raw or merely soaked beans.",
+      "Heat oil in a saucepan. Add cumin, then onion; cook for 7 minutes. Add ginger and garlic and stir for 1 minute.",
+      "Add tomatoes and salt. Cook for 8 minutes until soft, then add beans, garam masala and 200 ml water.",
+      "Simmer for 15 minutes, stirring. Mash a few beans to thicken the sauce. Serve hot."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "pav-bhaji",
+    "title": "Pav bhaji at home",
+    "cuisine": "Indian",
+    "minutes": 40,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "Buttery mashed vegetables with toasted buns for a cheerful shared supper.",
+    "ingredients": [
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "potato"
+      },
+      {
+        "amount": 200.0,
+        "unit": "g",
+        "name": "cauliflower"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "peas"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "bell pepper"
+      },
+      {
+        "amount": 3.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 40.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tsp",
+        "name": "pav bhaji masala"
+      },
+      {
+        "amount": 0.75,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 8.0,
+        "unit": "whole",
+        "name": "bread bun"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "lemon"
+      }
+    ],
+    "steps": [
+      "Peel and dice potatoes. Simmer with cauliflower and peas in water for 15–18 minutes until tender; drain and mash, reserving some cooking water.",
+      "Finely chop onion, pepper and tomatoes. Melt 25 g butter in a wide pan; cook onion and pepper for 6 minutes, then tomato, masala and salt for 6 minutes.",
+      "Add mashed vegetables and 150 ml reserved water. Mash together and simmer for 5 minutes, adding a little water for a thick, spoonable texture.",
+      "Split buns and toast in a separate pan with the remaining butter. Serve with the bhaji and lemon wedges."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Family table",
+      "Movie night"
+    ],
+    "specialDays": [
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "veg-biryani",
+    "title": "Vegetable celebration rice",
+    "cuisine": "Indian",
+    "minutes": 50,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "A fragrant, biryani-inspired one-pot rice with vegetables and yogurt.",
+    "ingredients": [
+      {
+        "amount": 280.0,
+        "unit": "g",
+        "name": "basmati rice"
+      },
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "carrot"
+      },
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "cauliflower"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "peas"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "cumin"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tsp",
+        "name": "garam masala"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "turmeric"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 10.0,
+        "unit": "g",
+        "name": "mint"
+      }
+    ],
+    "steps": [
+      "Rinse rice and soak for 15 minutes, then drain. Slice onions and chop vegetables into small, even pieces.",
+      "Heat oil in a heavy saucepan. Add cumin and onions; cook for 10 minutes until golden. Reserve a spoonful of onion for the top.",
+      "Add vegetables, garam masala, turmeric and salt. Cook for 4 minutes. Lower the heat and stir in yogurt and chopped mint.",
+      "Add drained rice and 450 ml water. Bring to a gentle boil, cover tightly and cook on very low heat for 15 minutes. Turn off heat and rest covered for 10 minutes. Fluff gently and top with reserved onion."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table",
+      "Date night"
+    ],
+    "specialDays": [
+      "Eid",
+      "Diwali",
+      "New Year"
+    ]
+  },
+  {
+    "id": "palak-paneer",
+    "title": "Creamy palak paneer",
+    "cuisine": "Indian",
+    "minutes": 30,
+    "servings": 3,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "Spinach and paneer in a smooth green sauce.",
+    "ingredients": [
+      {
+        "amount": 350.0,
+        "unit": "g",
+        "name": "spinach"
+      },
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "paneer"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 3.0,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "cumin"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "garam masala"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "cream"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Wash spinach thoroughly. Wilt in a covered pan with 3 tablespoons water for 3 minutes. Cool slightly and blend until smooth.",
+      "Heat oil in a saucepan. Add cumin and chopped onion and cook for 5 minutes. Add minced garlic and chopped tomato; cook for 5 minutes.",
+      "Add blended spinach, salt, garam masala and cubed paneer. Simmer gently for 5 minutes, adding water if needed.",
+      "Stir in cream and warm through for 1 minute without boiling hard."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Date night",
+      "Family table"
+    ],
+    "specialDays": [
+      "Valentine's Day"
+    ]
+  },
+  {
+    "id": "masala-oats",
+    "title": "Masala vegetable oats",
+    "cuisine": "Indian",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Breakfast",
+    "description": "A savoury oat bowl for mornings when you want something warm.",
+    "ingredients": [
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "carrot"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "peas"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "cumin"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "turmeric"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Finely dice carrot and tomato. Heat oil in a saucepan and add cumin.",
+      "Add carrot, peas and tomato; cook for 4 minutes, then stir in turmeric and salt.",
+      "Add oats and 400 ml water. Simmer for 7–10 minutes, stirring, until the vegetables are tender and oats creamy. Add more water if needed."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Solo night",
+      "Weekend brunch"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "curd-rice",
+    "title": "Cooling curd rice",
+    "cuisine": "Indian",
+    "minutes": 15,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Lunch",
+    "description": "Creamy yogurt rice with cucumber and a gentle mustard-seed tempering.",
+    "ingredients": [
+      {
+        "amount": 300.0,
+        "unit": "g",
+        "name": "cooked rice"
+      },
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 0.5,
+        "unit": "whole",
+        "name": "cucumber"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "mustard seeds"
+      },
+      {
+        "amount": 6.0,
+        "unit": "whole",
+        "name": "curry leaves"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Use freshly cooked rice cooled promptly, or rice kept safely refrigerated. Grate the washed cucumber.",
+      "Mix rice, yogurt, cucumber and salt. Add 2–3 tablespoons drinking water if too thick.",
+      "Heat oil in a small pan. Add mustard seeds and cover briefly as they pop. Add dry curry leaves carefully, turn off heat and let cool. Fold into rice. Serve promptly or refrigerate; do not leave yogurt rice at room temperature."
+    ],
+    "moods": [
+      "Summer cooler",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Solo night",
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "lemon-rice",
+    "title": "Golden lemon rice",
+    "cuisine": "Indian",
+    "minutes": 15,
+    "servings": 2,
+    "diet": "Vegan",
+    "category": "Lunch",
+    "description": "A bright rice bowl with peanuts and curry leaves.",
+    "ingredients": [
+      {
+        "amount": 350.0,
+        "unit": "g",
+        "name": "cooked rice"
+      },
+      {
+        "amount": 30.0,
+        "unit": "g",
+        "name": "peanuts"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "lemon"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "mustard seeds"
+      },
+      {
+        "amount": 6.0,
+        "unit": "whole",
+        "name": "curry leaves"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "turmeric"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Use fresh cooked rice or rice cooled promptly and refrigerated. Separate clumps with a fork.",
+      "Heat oil, add mustard seeds and cover briefly as they pop. Add peanuts and toast for 2 minutes. Add dry curry leaves carefully, followed by turmeric.",
+      "Add rice and salt. Stir over medium heat for 4–5 minutes until steaming hot throughout. Turn off heat and add lemon juice. Serve immediately; reheat rice only once."
+    ],
+    "moods": [
+      "Quick & easy",
+      "Fresh & light"
+    ],
+    "occasions": [
+      "Solo night"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "corn-chaat",
+    "title": "Tangy corn chaat",
+    "cuisine": "Indian",
+    "minutes": 15,
+    "servings": 3,
+    "diet": "Vegan",
+    "category": "Snacks",
+    "description": "A colourful bowl of sweet corn with lemon, tomato and spice.",
+    "ingredients": [
+      {
+        "amount": 300.0,
+        "unit": "g",
+        "name": "sweetcorn"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 0.5,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "lemon"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "chilli powder"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 5.0,
+        "unit": "g",
+        "name": "coriander"
+      }
+    ],
+    "steps": [
+      "Cook sweetcorn in simmering water for 4–5 minutes or follow its pack directions. Drain well.",
+      "Finely chop washed tomato, onion and coriander. Mix with the warm corn.",
+      "Add lemon juice, cumin, chilli powder and salt. Toss, taste and serve immediately."
+    ],
+    "moods": [
+      "Fresh & light",
+      "Spicy cravings",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Party bites",
+      "Movie night"
+    ],
+    "specialDays": [
+      "New Year"
+    ]
+  },
+  {
+    "id": "paneer-tikka",
+    "title": "Skillet paneer tikka",
+    "cuisine": "Indian",
+    "minutes": 40,
+    "servings": 3,
+    "diet": "Vegetarian",
+    "category": "Snacks",
+    "description": "Spiced paneer and peppers with charred edges, without a tandoor.",
+    "ingredients": [
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "paneer"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "bell pepper"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "garam masala"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "paprika"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 0.5,
+        "unit": "whole",
+        "name": "lemon"
+      }
+    ],
+    "steps": [
+      "Cut paneer, pepper and onion into large bite-sized pieces. Mix yogurt, spices, salt and half the oil.",
+      "Coat paneer and vegetables with yogurt mixture. Refrigerate for 20 minutes; this rest is included in the total time.",
+      "Heat remaining oil in a non-stick skillet over medium-high heat. Lift pieces from excess marinade and cook in a single layer for 8–10 minutes, turning until browned and hot throughout. Work in batches if needed.",
+      "Squeeze over lemon and serve hot."
+    ],
+    "moods": [
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Party bites",
+      "Date night"
+    ],
+    "specialDays": [
+      "Diwali",
+      "New Year"
+    ]
+  },
+  {
+    "id": "onion-fritters",
+    "title": "Crispy onion fritters",
+    "cuisine": "Indian",
+    "minutes": 30,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Snacks",
+    "description": "Small onion pakoras for a rainy afternoon. Shallow-fry in batches.",
+    "ingredients": [
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "chickpea flour"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "rice flour"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "cumin"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "chilli powder"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 120.0,
+        "unit": "ml",
+        "name": "oil"
+      }
+    ],
+    "steps": [
+      "Thinly slice onions. Mix with salt and rest for 5 minutes to release moisture.",
+      "Add chickpea flour, rice flour, cumin and chilli powder. Add water a tablespoon at a time, just enough to form a thick coating that holds the onions together.",
+      "Heat oil in a heavy frying pan over medium heat. Carefully add small flattened spoonfuls; keep the pan uncrowded and fry for 3–4 minutes per side until golden and cooked through.",
+      "Lift onto kitchen paper and repeat with the rest. Never leave hot oil unattended. Let remaining oil cool fully before handling."
+    ],
+    "moods": [
+      "Rainy day",
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Movie night",
+      "Party bites"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "suji-halwa",
+    "title": "Cardamom suji halwa",
+    "cuisine": "Indian",
+    "minutes": 25,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Warm semolina halwa with raisins and a little cardamom.",
+    "ingredients": [
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "semolina"
+      },
+      {
+        "amount": 45.0,
+        "unit": "g",
+        "name": "ghee"
+      },
+      {
+        "amount": 70.0,
+        "unit": "g",
+        "name": "sugar"
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "raisins"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Heat 300 ml water with sugar in a small saucepan until dissolved; keep hot.",
+      "Melt ghee in a wide pan. Add semolina and toast over medium-low heat for 8–10 minutes, stirring constantly, until fragrant and lightly golden.",
+      "Lower heat and carefully add hot sugar water a little at a time; it will bubble and steam. Stir continuously to prevent lumps.",
+      "Add raisins and cardamom. Cook for 4–5 minutes until thick and the grains are tender. Rest for 2 minutes before serving."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Diwali",
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "rice-kheer",
+    "title": "Slow-simmered rice kheer",
+    "cuisine": "Indian",
+    "minutes": 50,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "A small batch of creamy rice pudding for a festive table.",
+    "ingredients": [
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "basmati rice"
+      },
+      {
+        "amount": 800.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 55.0,
+        "unit": "g",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "almonds"
+      }
+    ],
+    "steps": [
+      "Rinse rice and soak for 10 minutes, then drain. Finely slice almonds.",
+      "Bring milk to a gentle simmer in a heavy saucepan. Add rice and cook on low heat for 30–35 minutes, stirring and scraping the base often.",
+      "Once rice is very soft, add sugar and cardamom. Simmer for another 5 minutes until creamy.",
+      "Top with almonds. Serve warm, or cool promptly and refrigerate in covered containers for a chilled dessert."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Diwali",
+      "Eid",
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "seviyan",
+    "title": "Cardamom milk seviyan",
+    "cuisine": "Indian",
+    "minutes": 25,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Fine wheat vermicelli simmered in milk with raisins.",
+    "ingredients": [
+      {
+        "amount": 80.0,
+        "unit": "g",
+        "name": "wheat vermicelli"
+      },
+      {
+        "amount": 650.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 45.0,
+        "unit": "g",
+        "name": "sugar"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "ghee"
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "raisins"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Heat ghee in a heavy saucepan. Add vermicelli and toast for 2–3 minutes until light golden; if already roasted, warm for just 30 seconds.",
+      "Pour in milk carefully and bring to a gentle simmer. Cook for 8–12 minutes, stirring, until vermicelli is soft.",
+      "Add sugar, raisins and cardamom. Simmer for 3 minutes. Rest briefly before serving; add a splash of milk if it thickens too much."
+    ],
+    "moods": [
+      "Sweet tooth"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Eid",
+      "Diwali"
+    ]
+  },
+  {
+    "id": "coconut-ladoo",
+    "title": "Easy coconut ladoo",
+    "cuisine": "Indian",
+    "minutes": 30,
+    "servings": 6,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Twelve small coconut sweets made with condensed milk.",
+    "ingredients": [
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "desiccated coconut"
+      },
+      {
+        "amount": 180.0,
+        "unit": "g",
+        "name": "condensed milk"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "ghee"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Reserve 25 g coconut for rolling. Warm ghee in a non-stick pan over low heat and add the remaining coconut. Stir for 1 minute.",
+      "Add condensed milk and cardamom. Stir on low heat for 4–6 minutes until the mixture comes together and leaves the pan cleanly.",
+      "Transfer to a plate and cool for 10–15 minutes until comfortable to handle. With clean lightly greased hands, shape into 12 small balls.",
+      "Roll in reserved coconut. Store covered in the refrigerator and enjoy within 3 days; two small ladoos make one serving."
+    ],
+    "moods": [
+      "Sweet tooth"
+    ],
+    "occasions": [
+      "Party bites",
+      "Family table"
+    ],
+    "specialDays": [
+      "Diwali",
+      "Holi"
+    ]
+  },
+  {
+    "id": "mango-lassi",
+    "title": "Mango yogurt lassi",
+    "cuisine": "Indian",
+    "minutes": 10,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Drinks",
+    "description": "A thick, chilled mango drink for sunny afternoons.",
+    "ingredients": [
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "mango"
+      },
+      {
+        "amount": 200.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 100.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.125,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Peel and chop ripe mango, discarding the stone. Use chilled ingredients.",
+      "Blend mango with yogurt, milk, sugar and cardamom until smooth. Add a little cold drinking water if you prefer it thinner.",
+      "Pour into two glasses and serve immediately. Keep any leftovers refrigerated."
+    ],
+    "moods": [
+      "Summer cooler",
+      "Sweet tooth",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Weekend brunch",
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "almond-milk-cooler",
+    "title": "Rose & almond milk cooler",
+    "cuisine": "Indian",
+    "minutes": 45,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Drinks",
+    "description": "A thandai-inspired milk cooler with almonds, fennel and cardamom. Includes soaking time.",
+    "ingredients": [
+      {
+        "amount": 40.0,
+        "unit": "g",
+        "name": "almonds"
+      },
+      {
+        "amount": 500.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "fennel seeds"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "food-grade rose water"
+      }
+    ],
+    "steps": [
+      "Soak almonds in hot water for 30 minutes, then drain and slip off their skins. Use only rose water labelled for food use.",
+      "Blend almonds, fennel and 100 ml of the milk into a very smooth paste. Strain through a fine sieve if desired.",
+      "Stir in remaining chilled milk, sugar, cardamom and rose water. Divide between four glasses and serve cold; refrigerate until serving."
+    ],
+    "moods": [
+      "Summer cooler",
+      "Sweet tooth"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Holi"
+    ]
+  },
+  {
+    "id": "sweet-pongal",
+    "title": "Jaggery sweet pongal",
+    "cuisine": "Indian",
+    "minutes": 45,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Soft rice and mung lentils sweetened with jaggery.",
+    "ingredients": [
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "rice"
+      },
+      {
+        "amount": 40.0,
+        "unit": "g",
+        "name": "split mung lentils"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "jaggery"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "ghee"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "cashews"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "raisins"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Rinse rice and lentils. Add to a saucepan with 650 ml water. Bring to a boil and simmer loosely covered for 25–30 minutes until very soft, stirring occasionally.",
+      "Meanwhile, dissolve jaggery in 60 ml hot water and strain to remove grit. Stir into the cooked rice and lentils.",
+      "Heat ghee in a small pan. Toast cashews until golden, then add raisins for 20 seconds.",
+      "Fold the nuts, raisins, ghee and cardamom into the rice. Simmer for 3 minutes, adding hot water if too thick."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Pongal"
+    ]
+  },
+  {
+    "id": "besan-ladoo",
+    "title": "Roasted besan ladoo",
+    "cuisine": "Indian",
+    "minutes": 50,
+    "servings": 6,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Nutty, slow-roasted chickpea flour sweets; makes twelve small ladoos.",
+    "ingredients": [
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "chickpea flour"
+      },
+      {
+        "amount": 70.0,
+        "unit": "g",
+        "name": "ghee"
+      },
+      {
+        "amount": 80.0,
+        "unit": "g",
+        "name": "icing sugar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cardamom"
+      }
+    ],
+    "steps": [
+      "Melt ghee in a heavy pan over low heat. Add chickpea flour and stir continuously for 18–22 minutes until aromatic and a shade darker; avoid scorching.",
+      "Transfer to a bowl and cool for about 15 minutes until just warm, not hot.",
+      "Mix in icing sugar and cardamom thoroughly. If still too soft to shape, let stand a little longer.",
+      "Shape with clean hands into 12 small balls. Let set before serving; two small ladoos make one serving."
+    ],
+    "moods": [
+      "Sweet tooth"
+    ],
+    "occasions": [
+      "Family table",
+      "Party bites"
+    ],
+    "specialDays": [
+      "Diwali"
+    ]
+  },
+  {
+    "id": "mac-cheese",
+    "title": "Stovetop mac & cheese",
+    "cuisine": "International",
+    "minutes": 25,
+    "servings": 3,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "A small pot of creamy, comforting macaroni.",
+    "ingredients": [
+      {
+        "amount": 220.0,
+        "unit": "g",
+        "name": "macaroni"
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "amount": 350.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 120.0,
+        "unit": "g",
+        "name": "cheddar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "black pepper"
+      }
+    ],
+    "steps": [
+      "Cook macaroni according to the package and drain. Grate cheddar; choose vegetarian-labelled cheese if required.",
+      "Melt butter in a saucepan. Stir in flour and cook for 1 minute. Whisk in milk gradually until smooth.",
+      "Simmer for 4–5 minutes, stirring, until thick enough to coat a spoon. Remove from heat and stir in cheese, salt and pepper.",
+      "Fold in macaroni. Warm gently if needed without boiling hard. Serve immediately."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Movie night",
+      "Family table"
+    ],
+    "specialDays": [
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "flatbread-pizza",
+    "title": "Loaded flatbread pizzas",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Dinner",
+    "description": "Crisp, colourful pizzas made with ready-to-eat flatbread.",
+    "ingredients": [
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "flatbread"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "tomato passata"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "mozzarella"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "bell pepper"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "sweetcorn"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "olive oil"
+      }
+    ],
+    "steps": [
+      "Heat oven to 220°C conventional or 200°C fan. Put flatbreads on a baking tray and brush edges with oil.",
+      "Spread with passata. Top with grated mozzarella, thin pepper strips, drained cooked corn and oregano.",
+      "Bake for 10–12 minutes until the edges are crisp and cheese melted and bubbling. Cool for 2 minutes before slicing."
+    ],
+    "moods": [
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Movie night",
+      "Party bites"
+    ],
+    "specialDays": [
+      "Birthdays",
+      "New Year"
+    ]
+  },
+  {
+    "id": "lentil-bolognese",
+    "title": "Lentil bolognese",
+    "cuisine": "International",
+    "minutes": 40,
+    "servings": 3,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A hearty tomato and lentil sauce for a relaxed pasta night.",
+    "ingredients": [
+      {
+        "amount": 220.0,
+        "unit": "g",
+        "name": "pasta"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "red lentils"
+      },
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "canned tomato"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "carrot"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 2.0,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "dried oregano"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Finely dice onion and carrot. Heat oil in a saucepan and cook both for 6 minutes. Add minced garlic for 1 minute.",
+      "Rinse lentils and add with tomatoes, oregano, salt and 350 ml water. Simmer for 25 minutes, stirring, until lentils are soft. Add water if the sauce catches.",
+      "Meanwhile, cook pasta according to the package and drain.",
+      "Taste the sauce, then toss with pasta or spoon over it."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Date night",
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "bean-chili",
+    "title": "Smoky bean chili",
+    "cuisine": "International",
+    "minutes": 35,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A rich, one-pot bean chili for a table of friends.",
+    "ingredients": [
+      {
+        "amount": 500.0,
+        "unit": "g",
+        "name": "cooked kidney beans"
+      },
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "canned tomato"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "bell pepper"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "sweetcorn"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "paprika"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "chilli powder"
+      },
+      {
+        "amount": 0.75,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Drain and rinse canned or fully cooked beans. Dice onion and pepper.",
+      "Heat oil in a large saucepan; cook onion and pepper for 6 minutes. Add paprika, cumin and chilli powder for 30 seconds.",
+      "Add tomatoes, beans, corn, salt and 150 ml water. Simmer uncovered for 20 minutes, stirring occasionally.",
+      "Mash a few beans to thicken and simmer for another 3 minutes. Serve hot."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Spicy cravings"
+    ],
+    "occasions": [
+      "Family table",
+      "Movie night"
+    ],
+    "specialDays": [
+      "New Year"
+    ]
+  },
+  {
+    "id": "minestrone",
+    "title": "Garden minestrone",
+    "cuisine": "International",
+    "minutes": 35,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A vegetable and bean soup with little pasta shapes.",
+    "ingredients": [
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "carrot"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "courgette"
+      },
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "cooked white beans"
+      },
+      {
+        "amount": 400.0,
+        "unit": "g",
+        "name": "canned tomato"
+      },
+      {
+        "amount": 80.0,
+        "unit": "g",
+        "name": "small pasta"
+      },
+      {
+        "amount": 700.0,
+        "unit": "ml",
+        "name": "vegetable stock"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "dried oregano"
+      }
+    ],
+    "steps": [
+      "Dice onion, carrot and courgette. Drain and rinse beans.",
+      "Heat oil in a large saucepan and cook onion and carrot for 6 minutes. Add courgette, tomatoes, stock and oregano.",
+      "Bring to a simmer. Add pasta and cook for the package time, usually 8–12 minutes, stirring so it does not stick.",
+      "Add beans for the final 5 minutes. Check the vegetables and pasta are tender, adding hot water if needed. Taste before adding any extra salt."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "bruschetta",
+    "title": "Tomato bruschetta bites",
+    "cuisine": "International",
+    "minutes": 15,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Snacks",
+    "description": "Crunchy toast topped with juicy tomato and basil.",
+    "ingredients": [
+      {
+        "amount": 8.0,
+        "unit": "slices",
+        "name": "baguette"
+      },
+      {
+        "amount": 3.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 1.0,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 8.0,
+        "unit": "g",
+        "name": "basil"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Dice washed tomatoes and tear basil. Mix with 1 tablespoon olive oil and salt.",
+      "Toast baguette slices until crisp. Rub each lightly with the cut side of the garlic clove and drizzle with remaining oil.",
+      "Spoon tomato mixture over toast just before serving so it stays crisp."
+    ],
+    "moods": [
+      "Fresh & light",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Party bites",
+      "Date night"
+    ],
+    "specialDays": [
+      "New Year"
+    ]
+  },
+  {
+    "id": "hummus",
+    "title": "Creamy lemon hummus",
+    "cuisine": "International",
+    "minutes": 15,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Sides",
+    "description": "A lemony chickpea dip for vegetables, toast or a sharing plate.",
+    "ingredients": [
+      {
+        "amount": 350.0,
+        "unit": "g",
+        "name": "cooked chickpeas"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "tahini"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "lemon"
+      },
+      {
+        "amount": 1.0,
+        "unit": "cloves",
+        "name": "garlic"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Drain and rinse cooked chickpeas. Juice the lemon and peel garlic.",
+      "Blend chickpeas, tahini, lemon juice, garlic, cumin and salt with 60 ml cold drinking water until smooth. Add water a spoonful at a time if needed.",
+      "Spoon into a bowl and drizzle with olive oil. Keep chilled until serving."
+    ],
+    "moods": [
+      "Fresh & light",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Party bites",
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "guacamole",
+    "title": "Lime guacamole",
+    "cuisine": "International",
+    "minutes": 10,
+    "servings": 4,
+    "diet": "Vegan",
+    "category": "Sides",
+    "description": "Fresh avocado dip with tomato, lime and coriander.",
+    "ingredients": [
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "avocado"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "lime"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 0.25,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 5.0,
+        "unit": "g",
+        "name": "coriander"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      }
+    ],
+    "steps": [
+      "Wash the produce. Halve avocados, remove stones and scoop flesh into a bowl.",
+      "Mash with lime juice and salt, leaving a little texture. Finely chop tomato, onion and coriander.",
+      "Fold vegetables and coriander into the avocado. Serve promptly, or cover and refrigerate until serving."
+    ],
+    "moods": [
+      "Fresh & light",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Party bites",
+      "Movie night"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "nachos",
+    "title": "Oven bean nachos",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Snacks",
+    "description": "A warm tray of crunchy chips, beans and melted cheese.",
+    "ingredients": [
+      {
+        "amount": 180.0,
+        "unit": "g",
+        "name": "tortilla chips"
+      },
+      {
+        "amount": 240.0,
+        "unit": "g",
+        "name": "cooked kidney beans"
+      },
+      {
+        "amount": 120.0,
+        "unit": "g",
+        "name": "cheddar"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "tomato"
+      },
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "spring onion"
+      },
+      {
+        "amount": 80.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cumin"
+      }
+    ],
+    "steps": [
+      "Heat oven to 200°C conventional or 180°C fan. Drain and rinse cooked beans, then toss with cumin.",
+      "Spread chips on a tray. Scatter beans and grated cheddar over the top and bake for 8–10 minutes until hot and melted.",
+      "Dice tomato and slice spring onions. Add them after baking, with spoonfuls of yogurt. Serve immediately."
+    ],
+    "moods": [
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Movie night",
+      "Party bites"
+    ],
+    "specialDays": [
+      "New Year",
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "eggless-pancakes",
+    "title": "Fluffy eggless pancakes",
+    "cuisine": "International",
+    "minutes": 25,
+    "servings": 3,
+    "diet": "Vegetarian",
+    "category": "Breakfast",
+    "description": "Six small pancakes for a slow weekend morning.",
+    "ingredients": [
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "amount": 200.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 1.5,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": 20.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "salt"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "maple syrup"
+      }
+    ],
+    "steps": [
+      "Mix flour, baking powder, sugar and salt. Melt butter and whisk 15 g of it with milk, then stir into the dry ingredients just until combined.",
+      "Rest batter for 5 minutes. Heat a non-stick pan over medium-low heat and brush with the remaining butter.",
+      "Pour small rounds of batter. Cook for 2–3 minutes until bubbles appear and edges set; flip and cook for another 1–2 minutes until cooked through. Repeat for six pancakes.",
+      "Serve with maple syrup, two pancakes per person."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Weekend brunch"
+    ],
+    "specialDays": [
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "french-toast",
+    "title": "Cinnamon French toast",
+    "cuisine": "International",
+    "minutes": 20,
+    "servings": 2,
+    "diet": "Non-vegetarian",
+    "category": "Breakfast",
+    "description": "Golden toast with cinnamon and warm maple syrup.",
+    "ingredients": [
+      {
+        "amount": 4.0,
+        "unit": "slices",
+        "name": "bread"
+      },
+      {
+        "amount": 2.0,
+        "unit": "whole",
+        "name": "egg"
+      },
+      {
+        "amount": 80.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "maple syrup"
+      }
+    ],
+    "steps": [
+      "Whisk eggs, milk and cinnamon in a shallow bowl.",
+      "Melt half the butter in a skillet over medium-low heat. Dip two bread slices briefly on both sides in the egg mixture.",
+      "Cook for 3–4 minutes per side until golden and the egg coating is fully set, with no wet egg in the centre. Repeat with remaining butter and bread.",
+      "Serve with maple syrup."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Weekend brunch",
+      "Date night"
+    ],
+    "specialDays": [
+      "Valentine's Day"
+    ]
+  },
+  {
+    "id": "mug-cake",
+    "title": "Chocolate mug cake",
+    "cuisine": "International",
+    "minutes": 10,
+    "servings": 1,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "One small chocolate cake when you want a quick treat. Microwave required.",
+    "ingredients": [
+      {
+        "amount": 4.0,
+        "unit": "tbsp",
+        "name": "plain flour"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "baking powder"
+      },
+      {
+        "amount": 3.0,
+        "unit": "tbsp",
+        "name": "milk"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "oil"
+      }
+    ],
+    "steps": [
+      "In a microwave-safe mug of at least 300 ml, mix flour, cocoa, sugar and baking powder.",
+      "Stir in milk and oil, scraping the bottom until no dry flour remains. The mug should be no more than half full.",
+      "Microwave at 800 W for 70–90 seconds, then in 10-second bursts until the top is set and the centre has no raw batter. Power varies; watch closely.",
+      "Let stand for 2 minutes before eating. The mug will be hot."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Solo night",
+      "Movie night"
+    ],
+    "specialDays": [
+      "Birthdays"
+    ]
+  },
+  {
+    "id": "apple-crumble",
+    "title": "Warm apple crumble",
+    "cuisine": "International",
+    "minutes": 50,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Tender cinnamon apples beneath a crisp oat topping.",
+    "ingredients": [
+      {
+        "amount": 4.0,
+        "unit": "whole",
+        "name": "apple"
+      },
+      {
+        "amount": 80.0,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "amount": 50.0,
+        "unit": "g",
+        "name": "rolled oats"
+      },
+      {
+        "amount": 70.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "sugar"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      },
+      {
+        "amount": 0.5,
+        "unit": "whole",
+        "name": "lemon"
+      }
+    ],
+    "steps": [
+      "Heat oven to 190°C conventional or 170°C fan. Peel and slice apples into a baking dish. Toss with lemon juice, cinnamon and 20 g sugar.",
+      "Rub cold cubed butter into flour until crumbly. Stir in oats and remaining sugar.",
+      "Scatter topping over apples without pressing it down. Bake for 30–35 minutes until golden and the apples are tender.",
+      "Rest for 10 minutes before serving; the fruit underneath is very hot."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Sweet tooth",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Family table"
+    ],
+    "specialDays": [
+      "Christmas"
+    ]
+  },
+  {
+    "id": "chocolate-strawberries",
+    "title": "Chocolate-dipped strawberries",
+    "cuisine": "International",
+    "minutes": 35,
+    "servings": 4,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "A simple little dessert for someone special. Includes setting time.",
+    "ingredients": [
+      {
+        "amount": 300.0,
+        "unit": "g",
+        "name": "strawberry"
+      },
+      {
+        "amount": 100.0,
+        "unit": "g",
+        "name": "dark chocolate"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "desiccated coconut"
+      }
+    ],
+    "steps": [
+      "Wash strawberries and dry completely; water can make chocolate seize. Line a plate with baking paper.",
+      "Break chocolate into a dry heatproof bowl. Set over a pan of barely simmering water, keeping the bowl clear of the water, and stir until melted. Remove from heat.",
+      "Dip each strawberry halfway into chocolate, sprinkle with coconut and place on the lined plate.",
+      "Chill for about 20 minutes until set. Keep refrigerated and eat the same day."
+    ],
+    "moods": [
+      "Sweet tooth"
+    ],
+    "occasions": [
+      "Date night"
+    ],
+    "specialDays": [
+      "Valentine's Day",
+      "Anniversary"
+    ]
+  },
+  {
+    "id": "carrot-soup",
+    "title": "Ginger carrot soup",
+    "cuisine": "International",
+    "minutes": 35,
+    "servings": 3,
+    "diet": "Vegan",
+    "category": "Dinner",
+    "description": "A warming bowl of carrot soup with a gentle ginger kick.",
+    "ingredients": [
+      {
+        "amount": 450.0,
+        "unit": "g",
+        "name": "carrot"
+      },
+      {
+        "amount": 1.0,
+        "unit": "whole",
+        "name": "onion"
+      },
+      {
+        "amount": 15.0,
+        "unit": "g",
+        "name": "ginger"
+      },
+      {
+        "amount": 600.0,
+        "unit": "ml",
+        "name": "vegetable stock"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "olive oil"
+      },
+      {
+        "amount": 100.0,
+        "unit": "ml",
+        "name": "coconut milk"
+      }
+    ],
+    "steps": [
+      "Peel and slice carrots, chop onion and grate ginger.",
+      "Heat oil in a saucepan and soften onion for 5 minutes. Add ginger and carrots and cook for 2 minutes.",
+      "Add stock and simmer for 20 minutes until carrots are very tender. Take off heat and blend carefully with a submerged immersion blender.",
+      "Stir in coconut milk and warm gently for 2 minutes. Taste before adding extra salt."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Solo night",
+      "Family table"
+    ],
+    "specialDays": []
+  },
+  {
+    "id": "hot-chocolate",
+    "title": "Cosy hot chocolate",
+    "cuisine": "International",
+    "minutes": 10,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Drinks",
+    "description": "A rich chocolate drink for a quiet evening.",
+    "ingredients": [
+      {
+        "amount": 400.0,
+        "unit": "ml",
+        "name": "milk"
+      },
+      {
+        "amount": 40.0,
+        "unit": "g",
+        "name": "dark chocolate"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "cocoa powder"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "sugar"
+      },
+      {
+        "amount": 0.25,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      }
+    ],
+    "steps": [
+      "Whisk cocoa and sugar with 3 tablespoons of the milk in a saucepan to make a smooth paste.",
+      "Add remaining milk, chopped chocolate and cinnamon. Warm over medium-low heat, stirring, until chocolate melts; do not let it boil over.",
+      "Pour into two mugs and let cool to a comfortable drinking temperature."
+    ],
+    "moods": [
+      "Cozy comfort",
+      "Sweet tooth",
+      "Rainy day"
+    ],
+    "occasions": [
+      "Movie night",
+      "Date night"
+    ],
+    "specialDays": [
+      "Christmas"
+    ]
+  },
+  {
+    "id": "ginger-cookies",
+    "title": "Ginger spice cookies",
+    "cuisine": "International",
+    "minutes": 45,
+    "servings": 6,
+    "diet": "Vegetarian",
+    "category": "Desserts",
+    "description": "Twelve crisp-edged cookies for a festive tea break.",
+    "ingredients": [
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "plain flour"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "butter"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "brown sugar"
+      },
+      {
+        "amount": 2.0,
+        "unit": "tbsp",
+        "name": "golden syrup"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tsp",
+        "name": "ground ginger"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "ground cinnamon"
+      },
+      {
+        "amount": 0.5,
+        "unit": "tsp",
+        "name": "baking powder"
+      }
+    ],
+    "steps": [
+      "Heat oven to 180°C conventional or 160°C fan and line a tray. Beat softened butter with brown sugar, then mix in golden syrup.",
+      "Mix flour, ginger, cinnamon and baking powder. Stir into the butter mixture to form a dough; if crumbly, add 1–2 teaspoons water. Chill for 10 minutes.",
+      "Divide into 12 balls, space apart on the tray and flatten slightly. Bake for 12–15 minutes until the edges are golden.",
+      "Cool on the tray for 5 minutes, then transfer to a rack for 10 minutes. Two cookies make one serving."
+    ],
+    "moods": [
+      "Sweet tooth",
+      "Cozy comfort"
+    ],
+    "occasions": [
+      "Family table",
+      "Party bites"
+    ],
+    "specialDays": [
+      "Christmas"
+    ]
+  },
+  {
+    "id": "berry-parfait",
+    "title": "Berry yogurt parfait",
+    "cuisine": "International",
+    "minutes": 10,
+    "servings": 2,
+    "diet": "Vegetarian",
+    "category": "Breakfast",
+    "description": "Fresh berries, yogurt and a little crunch in a glass.",
+    "ingredients": [
+      {
+        "amount": 250.0,
+        "unit": "g",
+        "name": "yogurt"
+      },
+      {
+        "amount": 150.0,
+        "unit": "g",
+        "name": "mixed berries"
+      },
+      {
+        "amount": 60.0,
+        "unit": "g",
+        "name": "granola"
+      },
+      {
+        "amount": 1.0,
+        "unit": "tbsp",
+        "name": "honey"
+      }
+    ],
+    "steps": [
+      "Wash fresh berries and pat dry. If using frozen berries, prepare according to the package and cool before using.",
+      "Layer half the yogurt, berries and granola into two glasses. Repeat with the remaining ingredients.",
+      "Drizzle with honey and serve immediately so the granola stays crisp."
+    ],
+    "moods": [
+      "Fresh & light",
+      "Sweet tooth",
+      "Quick & easy"
+    ],
+    "occasions": [
+      "Weekend brunch",
+      "Date night"
+    ],
+    "specialDays": [
+      "Valentine's Day"
     ]
   }
 ]

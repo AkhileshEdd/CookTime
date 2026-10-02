@@ -4,7 +4,7 @@ A native, offline-first Android cooking companion. Kotlin, Jetpack Compose, Mate
 
 ## Features
 
-**Free:** 24 original recipes (12 Indian / 12 international), time and diet filters, ingredient exclusions, pantry-based recommendations, pantry quantities, favourites, search by dish or ingredient, serving scaling, guided cooking with screen wake lock, in-app timer, shopping-list aggregation, sharing, and moving checked groceries into the pantry.
+**Free:** 60 original recipes (30 Indian / 30 international), mood/vibe, occasion and special-day discovery, snacks, desserts and drinks, time and diet filters, ingredient exclusions, pantry-based recommendations, pantry quantities, favourites, search by dish or ingredient, serving scaling, guided cooking with screen wake lock, in-app timer, shopping-list aggregation, sharing, and moving checked groceries into the pantry.
 
 **One-time Pro:** weekly breakfast/lunch/dinner planner, week-to-shopping-list conversion, pantry expiry dates, custom recipe creation, JSON backup and restore using Android's document picker.
 
@@ -52,3 +52,8 @@ This is a client-only purchase design, suitable for an offline app but not tampe
 JVM tests cover expiry boundaries, diet and exclusion filters, pantry matching, ranking, serving scaling / grocery aggregation, backup validation and recipe integrity. CI runs tests, Android lint, debug APK compilation and release bundle compilation. Device UX and licensed Google Play purchase tests remain required before store launch.
 
 See [PRIVACY.md](PRIVACY.md) and [TESTING.md](TESTING.md). Recipes are original starter content and should be kitchen-tested before publication; cooking times depend on equipment and ingredients.
+
+
+## 1.1.0 — Cook for the moment
+
+Adds 36 recipes and tags across the whole catalogue. Discover and Recipes support combined mood, occasion and special-day filters; search includes tags. Tags are editorial inspiration, not automatic holiday scheduling or religious/dietary certification. Custom recipes can have moment tags too. Existing recipe IDs stay stable, and version-1 backups without tag fields still load. The collection contains 30 Indian and 30 international recipes; no recipe download or additional payment is needed.

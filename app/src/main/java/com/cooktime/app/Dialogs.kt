@@ -25,7 +25,7 @@ import java.util.UUID
             Text("COOKTIME PRO",color=MaterialTheme.colorScheme.primary,style=MaterialTheme.typography.labelLarge)
             Text("One purchase. No subscription.",style=MaterialTheme.typography.titleLarge)
             Text("• Plan a full week of meals\n\n• Track pantry expiry dates\n\n• Keep your own recipes\n\n• Back up and restore your kitchen")
-            Text("All 24 recipes, ingredient matching, favourites, guided cooking and shopping lists are free.")
+            Text("All 60 recipes, ingredient matching, favourites, guided cooking and shopping lists are free.")
             Text("Purchasing and restoring require Google Play and internet. Once verified, Pro works offline on this device.",style=MaterialTheme.typography.bodySmall)
             if(!pro) Button(onClick={billing.buy(context as Activity)},modifier=Modifier.fillMaxWidth()) { Text(price?.let { "Unlock Pro · $it" }?:"Check upgrade availability") }
             OutlinedButton(onClick={billing.refresh()},modifier=Modifier.fillMaxWidth()) { Text("Restore purchase") }
@@ -83,7 +83,7 @@ import java.util.UUID
             if(busy) LinearProgressIndicator(Modifier.fillMaxWidth())
             TextButton(onClick={reset=true}) { Text("Reset kitchen data",color=MaterialTheme.colorScheme.error) }
             HorizontalDivider()
-            Text("CookTime ${BuildConfig.VERSION_NAME}\n24 original recipes · 12 Indian + 12 international\nArtwork is decorative, not a photograph of each dish.",style=MaterialTheme.typography.bodySmall)
+            Text("CookTime ${BuildConfig.VERSION_NAME}\n60 original recipes · 30 Indian + 30 international\nArtwork is decorative, not a photograph of each dish.",style=MaterialTheme.typography.bodySmall)
         }
     },confirmButton={TextButton(onClick=dismiss){Text("Done")}})
     if(importText!=null) AlertDialog(onDismissRequest={importText=null},title={Text("Replace your kitchen?")},text={Text("This replaces your pantry, favourites, meal plan, custom recipes and shopping list. Export a backup first if you want to keep them.")},confirmButton={TextButton(onClick={vm.restore(importText!!);importText=null}){Text("Replace and restore")}},dismissButton={TextButton(onClick={importText=null}){Text("Cancel")}})
@@ -96,6 +96,9 @@ import java.util.UUID
     var cuisine by remember { mutableStateOf(original?.cuisine?:"Indian") }
     var diet by remember { mutableStateOf(original?.diet?:"Vegetarian") }
     var category by remember { mutableStateOf(original?.category?:"Dinner") }
+    var mood by remember { mutableStateOf(original?.moods?.firstOrNull()?:"") }
+    var occasion by remember { mutableStateOf(original?.occasions?.firstOrNull()?:"") }
+    var specialDay by remember { mutableStateOf(original?.specialDays?.firstOrNull()?:"") }
     var ingredients by remember { mutableStateOf(original?.ingredients?.joinToString("\n") { "${it.amount} | ${it.unit} | ${it.name}" }?:"") }
     var steps by remember { mutableStateOf(original?.steps?.joinToString("\n")?:"") }
     var error by remember { mutableStateOf("") }
@@ -108,7 +111,8 @@ import java.util.UUID
             }
             ChoiceRow(listOf("Indian","International"),cuisine,{cuisine=it})
             ChoiceRow(listOf("Vegetarian","Vegan","Non-vegetarian"),diet,{diet=it})
-            ChoiceRow(listOf("Breakfast","Lunch","Dinner","Sides"),category,{category=it})
+            ChoiceRow(RecipeDiscovery.categories,category,{category=it})
+            CollectionFilters(mood,occasion,specialDay,{mood=it},{occasion=it},{specialDay=it})
             OutlinedTextField(ingredients,{ingredients=it.take(10000)},label={Text("Ingredients: one per line")},placeholder={Text("200 | g | rice\n1 | tbsp | oil")},supportingText={Text("Format: amount | unit | ingredient. Use decimal quantities, e.g. 0.5.")},minLines=4)
             OutlinedTextField(steps,{steps=it.take(20000)},label={Text("Method: one step per line")},minLines=4)
             if(error.isNotBlank()) Text(error,color=MaterialTheme.colorScheme.error)
@@ -127,7 +131,7 @@ import java.util.UUID
             }
             val method=steps.lines().map { it.trim() }.filter { it.isNotBlank() }
             require(parsed.isNotEmpty()&&method.isNotEmpty()) { "Add ingredients and at least one cooking step." }
-            Recipe(original?.id?:"custom-${UUID.randomUUID()}",title.trim(),cuisine,time,count,diet,category,"From your own kitchen",parsed,method,true)
+            Recipe(original?.id?:"custom-${UUID.randomUUID()}",title.trim(),cuisine,time,count,diet,category,"From your own kitchen",parsed,method,true,listOf(mood).filter { it.isNotBlank() },listOf(occasion).filter { it.isNotBlank() },listOf(specialDay).filter { it.isNotBlank() })
         }.onSuccess { r->vm.update { it.copy(customRecipes=it.customRecipes.filterNot { old->old.id==r.id }+r) };dismiss() }.onFailure { error=it.message?:"Check your recipe" }
     }){Text("Save recipe")}},dismissButton={TextButton(onClick=dismiss){Text("Cancel")}})
 }

@@ -54,14 +54,52 @@ class KitchenLogicTest {
     }
     @Test fun bundledCollectionIsBalancedAndComplete() {
         val recipes=KitchenJson.recipes(JSONArray(File("src/main/assets/recipes.json").readText()))
-        assertEquals(24,recipes.size)
-        assertEquals(12,recipes.count { it.cuisine=="Indian" })
-        assertEquals(12,recipes.count { it.cuisine=="International" })
+        assertEquals(60,recipes.size)
+        assertEquals(30,recipes.count { it.cuisine=="Indian" })
+        assertEquals(30,recipes.count { it.cuisine=="International" })
         assertEquals(recipes.size,recipes.map { it.id }.toSet().size)
         recipes.forEach { r->
             assertTrue(r.servings>0 && r.minutes>0 && r.title.isNotBlank())
             assertTrue(r.ingredients.size>=3 && r.steps.size>=3)
+            assertTrue(r.category in RecipeDiscovery.categories)
+            assertTrue(r.moods.isNotEmpty() && r.occasions.isNotEmpty())
+            assertTrue(r.moods.all { it in RecipeDiscovery.moods })
+            assertTrue(r.occasions.all { it in RecipeDiscovery.occasions })
+            assertTrue(r.specialDays.all { it in RecipeDiscovery.specialDays })
             assertTrue(r.ingredients.all { it.amount>0 && it.name.isNotBlank() && it.unit.isNotBlank() })
         }
+    }
+
+    @Test fun discoveryCombinesAxesAndSearchWords() {
+        val r=recipe.copy(title="Chocolate treat", moods=listOf("Sweet tooth"),occasions=listOf("Date night"),specialDays=listOf("Valentine's Day"))
+        assertTrue(RecipeDiscovery.matches(r,"Sweet tooth","Date night","Valentine's Day","  CHOCOLATE  valentine  "))
+        assertFalse(RecipeDiscovery.matches(r,"Spicy cravings","Date night"))
+        assertFalse(RecipeDiscovery.matches(r,occasion="Movie night"))
+        assertFalse(RecipeDiscovery.matches(r,specialDay="Diwali"))
+        assertTrue(RecipeDiscovery.matches(recipe))
+    }
+    @Test fun oldRecipesAndBackupsStillLoadWithoutTags() {
+        val legacy=KitchenJson.recipe(recipe.copy(id="custom-old",custom=true))
+        listOf("moods","occasions","specialDays").forEach { legacy.remove(it) }
+        val raw=org.json.JSONObject(KitchenJson.encode(KitchenState(customRecipes=listOf(recipe.copy(id="custom-old",custom=true)))))
+        raw.put("customRecipes",JSONArray().put(legacy))
+        val restored=KitchenJson.decode(raw.toString()).customRecipes.single()
+        assertTrue(restored.moods.isEmpty() && restored.occasions.isEmpty() && restored.specialDays.isEmpty())
+        assertEquals("custom-old",restored.id)
+    }
+    @Test fun customMomentTagsSurviveBackupRoundTrip() {
+        val tagged=recipe.copy(id="custom-tags",custom=true,moods=listOf("Cozy comfort","Rainy day"),occasions=listOf("Family table"),specialDays=listOf("Diwali"))
+        val state=KitchenState(customRecipes=listOf(tagged))
+        assertEquals(state,KitchenJson.decode(KitchenJson.encode(state)))
+    }
+    @Test fun everyCuratedCollectionHasRecipesAndOriginalIdsRemain() {
+        val recipes=KitchenJson.recipes(JSONArray(File("src/main/assets/recipes.json").readText()))
+        RecipeDiscovery.moods.forEach { tag->assertTrue(tag,recipes.any { tag in it.moods }) }
+        RecipeDiscovery.occasions.forEach { tag->assertTrue(tag,recipes.any { tag in it.occasions }) }
+        RecipeDiscovery.specialDays.forEach { tag->assertTrue(tag,recipes.any { tag in it.specialDays }) }
+        val originalIds="poha chilla upma dal chana paneer aloo pulao khichdi bhurji raita chicken pasta oats friedrice shakshuka salad quesadilla soup noodles mushroom couscous potato chickenbowl".split(" ")
+        assertTrue(recipes.map { it.id }.containsAll(originalIds))
+        val vegan=KitchenLogic.rank(recipes.filter { RecipeDiscovery.matches(it,mood="Sweet tooth") },KitchenState(diet="Vegan"),600)
+        assertTrue(vegan.all { it.diet=="Vegan" })
     }
 }

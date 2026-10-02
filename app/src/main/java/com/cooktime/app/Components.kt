@@ -8,7 +8,8 @@ import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
@@ -84,5 +85,26 @@ import kotlin.math.*
         FoodArt("pro",Modifier.fillMaxWidth().height(190.dp))
         Button(onClick=onUpgrade,modifier=Modifier.fillMaxWidth()) { Text("Explore the one-time upgrade") }
         Text("Your recipes, pantry matching and shopping list stay free.",style=MaterialTheme.typography.bodySmall)
+    }
+}
+
+@Composable fun CollectionFilters(mood: String, occasion: String, specialDay: String,
+    onMood: (String)->Unit, onOccasion: (String)->Unit, onSpecialDay: (String)->Unit) {
+    var section by rememberSaveable { mutableStateOf("Mood & vibe") }
+    Column(verticalArrangement=Arrangement.spacedBy(4.dp)) {
+        Text("Cook for the moment",style=MaterialTheme.typography.titleMedium)
+        ChoiceRow(listOf("Mood & vibe", "Occasion", "Special day"), section, { section=it })
+        val options = when(section) { "Occasion" -> RecipeDiscovery.occasions; "Special day" -> RecipeDiscovery.specialDays; else -> RecipeDiscovery.moods }
+        val selected = when(section) { "Occasion" -> occasion; "Special day" -> specialDay; else -> mood }
+        ChoiceRow(listOf("Any")+options, selected.ifBlank { "Any" }, { value ->
+            val choice = if(value=="Any") "" else value
+            when(section) { "Occasion" -> onOccasion(choice); "Special day" -> onSpecialDay(choice); else -> onMood(choice) }
+        })
+        val active = listOf(mood,occasion,specialDay).filter { it.isNotBlank() }
+        if(active.isNotEmpty()) {
+            Text(active.joinToString(" · "),style=MaterialTheme.typography.labelSmall,color=MaterialTheme.colorScheme.secondary)
+            TextButton(onClick={onMood("");onOccasion("");onSpecialDay("")}) { Text("Clear moment filters") }
+        }
+        if(section=="Special day") Text("Ideas for your celebration. Check ingredients against your own traditions and dietary needs.",style=MaterialTheme.typography.bodySmall)
     }
 }

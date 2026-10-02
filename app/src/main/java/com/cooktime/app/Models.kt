@@ -14,7 +14,8 @@ data class Ingredient(val name: String, val amount: Double, val unit: String) {
 }
 data class Recipe(val id: String, val title: String, val cuisine: String, val minutes: Int,
     val servings: Int, val diet: String, val category: String, val description: String,
-    val ingredients: List<Ingredient>, val steps: List<String>, val custom: Boolean = false)
+    val ingredients: List<Ingredient>, val steps: List<String>, val custom: Boolean = false,
+    val moods: List<String> = emptyList(), val occasions: List<String> = emptyList(), val specialDays: List<String> = emptyList())
 data class PantryItem(val name: String, val quantity: String = "", val expiry: String = "")
 data class ShoppingItem(val name: String, val amount: Double = 0.0, val unit: String = "", val checked: Boolean = false) {
     val label: String get() = if (amount > 0) Ingredient(name, amount, unit).display(1, 1) else name
@@ -24,6 +25,21 @@ data class KitchenState(val favourites: Set<String> = emptySet(), val pantry: Li
     val shopping: List<ShoppingItem> = emptyList(), val meals: List<Meal> = emptyList(),
     val customRecipes: List<Recipe> = emptyList(), val history: List<String> = emptyList(),
     val diet: String = "All", val excluded: String = "", val dark: Boolean = false, val onboarded: Boolean = false)
+
+/** Editorial inspiration, not automatically scheduled holidays or allergen certification. */
+object RecipeDiscovery {
+    val moods = listOf("Cozy comfort", "Quick & easy", "Fresh & light", "Spicy cravings", "Sweet tooth", "Rainy day", "Summer cooler")
+    val occasions = listOf("Solo night", "Family table", "Date night", "Party bites", "Weekend brunch", "Movie night")
+    val specialDays = listOf("Diwali", "Holi", "Eid", "Christmas", "Birthdays", "Valentine's Day", "New Year", "Pongal", "Anniversary")
+    val categories = listOf("Breakfast", "Lunch", "Dinner", "Sides", "Snacks", "Desserts", "Drinks")
+    fun matches(recipe: Recipe, mood: String = "", occasion: String = "", specialDay: String = "", query: String = ""): Boolean {
+        val terms = query.trim().split(Regex("\\s+")).filter { it.isNotBlank() }
+        val searchable = listOf(recipe.title, recipe.description, recipe.cuisine, recipe.category) +
+            recipe.ingredients.map { it.name } + recipe.moods + recipe.occasions + recipe.specialDays
+        return (mood.isBlank() || mood in recipe.moods) && (occasion.isBlank() || occasion in recipe.occasions) &&
+            (specialDay.isBlank() || specialDay in recipe.specialDays) && terms.all { term -> searchable.any { it.contains(term, ignoreCase = true) } }
+    }
+}
 
 object KitchenLogic {
     fun normalize(value: String) = value.trim().lowercase(Locale.ROOT).replace(Regex("\\s+"), " ")
@@ -61,12 +77,13 @@ object KitchenJson {
         Recipe(o.getString("id"), o.getString("title"), o.getString("cuisine"), o.getInt("minutes"), o.getInt("servings"),
             o.getString("diet"), o.getString("category"), o.getString("description"),
             o.getJSONArray("ingredients").objects().map { Ingredient(it.getString("name"), it.getDouble("amount"), it.getString("unit")) },
-            o.getJSONArray("steps").strings(), o.optBoolean("custom"))
+            o.getJSONArray("steps").strings(), o.optBoolean("custom"),
+            o.optJSONArray("moods")?.strings().orEmpty(), o.optJSONArray("occasions")?.strings().orEmpty(), o.optJSONArray("specialDays")?.strings().orEmpty())
     }
     fun recipe(r: Recipe) = JSONObject().put("id", r.id).put("title", r.title).put("cuisine", r.cuisine).put("minutes", r.minutes)
         .put("servings", r.servings).put("diet", r.diet).put("category", r.category).put("description", r.description).put("custom", r.custom)
         .put("ingredients", JSONArray(r.ingredients.map { JSONObject().put("name", it.name).put("amount", it.amount).put("unit", it.unit) }))
-        .put("steps", JSONArray(r.steps))
+        .put("steps", JSONArray(r.steps)).put("moods", JSONArray(r.moods)).put("occasions", JSONArray(r.occasions)).put("specialDays", JSONArray(r.specialDays))
     fun encode(s: KitchenState): String = JSONObject().put("version", 1).put("favourites", JSONArray(s.favourites.toList()))
         .put("pantry", JSONArray(s.pantry.map { JSONObject().put("name", it.name).put("quantity", it.quantity).put("expiry", it.expiry) }))
         .put("shopping", JSONArray(s.shopping.map { JSONObject().put("name", it.name).put("amount", it.amount).put("unit", it.unit).put("checked", it.checked) }))

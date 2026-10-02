@@ -104,7 +104,7 @@ private val Dark = darkColorScheme(primary=Color(0xFFFFAD91), secondary=Color(0x
         Text("COOKTIME  /  YOUR EVERYDAY KITCHEN",color=MaterialTheme.colorScheme.primary,style=MaterialTheme.typography.labelLarge)
         FoodArt("welcome",Modifier.fillMaxWidth().height(210.dp))
         Text("A little inspiration.\nA delicious everyday.",style=MaterialTheme.typography.headlineLarge)
-        Text("Find something good to cook with what you already have. 24 recipes, two worlds of flavour, always at hand—even offline.",style=MaterialTheme.typography.bodyLarge)
+        Text("Find something good to cook with what you already have. 60 recipes, two worlds of flavour, always at hand—even offline.",style=MaterialTheme.typography.bodyLarge)
         Text("How do you like to eat?",style=MaterialTheme.typography.titleMedium)
         ChoiceRow(listOf("All","Vegetarian","Vegan"),state.diet,diet)
         Text("You can change this anytime. Ingredient filters are a convenience, not an allergy guarantee—always check labels.",style=MaterialTheme.typography.bodySmall)
